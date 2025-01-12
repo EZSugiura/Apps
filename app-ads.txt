@@ -3,3 +3,6 @@ google.com, pub-6100138666703971, DIRECT, f08c47fec0942fa0
 
 # Fluct
 adingo.jp, 30013, RESELLER
+
+#facebook
+facebook.com, 393063663160723, DIRECT, c3e20eee3f780d68
