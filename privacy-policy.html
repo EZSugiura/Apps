@@ -42,17 +42,28 @@
 <h2>1. 取得する情報</h2>
 
 <p>
-本アプリでは、ユーザー個人を特定する氏名、住所、電話番号、
-メールアドレス等の個人情報を取得しません。
+本アプリでは、原則としてユーザー個人を特定する情報を取得しません。<br>
+ただし、ユーザーが任意でGoogleアカウントによるログインを選択した場合、
+以下の情報を取得します。
+</p>
+
+<ul>
+    <li><strong>氏名（表示名）</strong>：Googleアカウントに登録された表示名</li>
+    <li><strong>メールアドレス</strong>：Googleアカウントに登録されたメールアドレス</li>
+</ul>
+
+<p>
+Googleアカウントによるログインは任意です。ログインしない場合、
+上記の個人情報は一切取得されません。
 </p>
 
 <p>
-ただし、以下の情報が自動的に収集される場合があります。
+また、以下の情報がサービス提供のために自動的に収集される場合があります。
 </p>
 
 <ul>
     <li>広告配信およびサービス改善のための広告識別子・利用状況に関する情報</li>
-    <li>ランキング機能のための匿名端末識別ID（Firebase匿名認証により生成。氏名・メールアドレス等とは紐付きません）</li>
+    <li>ランキング機能のための匿名端末識別ID（Firebase匿名認証により生成。ログインしない場合に使用）</li>
     <li>ランキング機能への採点データ（対象キャラクター・点数・採点日付）</li>
 </ul>
 
@@ -64,6 +75,7 @@
 
 <ul>
     <li>アプリ機能の提供</li>
+    <li>アカウント管理（AndroidとWeb間でのデータ同期）</li>
     <li>ランキング機能の運営（採点集計・順位表示）</li>
     <li>広告配信</li>
     <li>利用状況の分析</li>
@@ -100,11 +112,15 @@ https://policies.google.com/technologies/ads
 
 <ul>
     <li>
+        <strong>Google Sign-In</strong>（任意のGoogleアカウント認証）<br>
+        <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+    </li>
+    <li>
         <strong>Google AdMob</strong>（広告配信）<br>
         <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
     </li>
     <li>
-        <strong>Firebase Authentication</strong>（匿名ユーザー識別）<br>
+        <strong>Firebase Authentication</strong>（ユーザー識別・認証）<br>
         <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a>
     </li>
     <li>
@@ -118,7 +134,21 @@ https://policies.google.com/technologies/ads
 各提供事業者のプライバシーポリシーに基づいて管理されます。
 </p>
 
-<h2>5. 免責事項</h2>
+<h2>5. アカウント・データの削除リクエスト</h2>
+
+<p>
+アカウントおよび関連データ（採点データ・ログイン情報）の削除をご希望の場合は、
+以下のメールアドレスまでご連絡ください。<br>
+お名前（またはGoogle登録メールアドレス）をお知らせいただければ、
+速やかに対応いたします。
+</p>
+
+<p>
+<strong>連絡先：</strong>
+<a href="mailto:ez_games@ymail.ne.jp">ez_games@ymail.ne.jp</a>
+</p>
+
+<h2>6. 免責事項</h2>
 
 <p>
 本アプリは非公式のファン制作アプリです。<br>
@@ -129,27 +159,15 @@ https://policies.google.com/technologies/ads
 本アプリの利用によって生じた損害等について、
 開発者は責任を負いません。
 </p>
-    
-<h2>アカウント・データの削除リクエスト</h2>
-<p>
-  アカウントおよび関連データ（採点データ・ログイン情報）の削除をご希望の場合は、
-  以下のメールアドレスまでご連絡ください。<br>
-  お名前（またはGoogle登録メールアドレス）をお知らせいただければ、
-  速やかに対応いたします。
-</p>
-    
-<p>
-  <strong>連絡先：</strong>
-  <a href="mailto:ez_games@ymail.ne.jp">ez_games@ymail.ne.jp</a>
-</p>
-<h2>6. プライバシーポリシーの変更</h2>
+
+<h2>7. プライバシーポリシーの変更</h2>
 
 <p>
 本ポリシーは、必要に応じて変更される場合があります。
 変更後のポリシーは本ページに掲載した時点で効力を生じるものとします。
 </p>
 
-<h2>7. お問い合わせ</h2>
+<h2>8. お問い合わせ</h2>
 
 <p>
 お問い合わせは、Google Playストア記載の連絡先よりお願いいたします。
@@ -158,7 +176,7 @@ https://policies.google.com/technologies/ads
 <hr>
 
 <p>
-制定日：2026年5月9日　最終更新日：2026年5月27日
+制定日：2026年5月9日　最終更新日：2026年5月28日
 </p>
 
 </body>
