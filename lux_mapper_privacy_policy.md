@@ -33,7 +33,7 @@
 - 大まかな位置情報（IPアドレスベース）
 - 広告のインプレッション・クリック情報
 
-AdMobのプライバシーポリシーについては [Google のプライバシーポリシー](https://policies.google.com/privacy) をご参照ください。
+AdMobのプライバシーポリシーについては [Google のプライバシーポリシー]をご参照ください。
 
 ---
 
@@ -87,7 +87,7 @@ AdMobのプライバシーポリシーについては [Google のプライバシ
 
 本プライバシーポリシーに関するご質問は、以下の連絡先までお問い合わせください：
 
-**Email:** eizosugiura@gmail.com
+**Email:** ez_games@ymail.ne.jp
 
 ---
 
@@ -101,6 +101,6 @@ The app uses the following device features:
 - **Wi-Fi**: for indoor positioning via Wi-Fi RTT (optional)
 - **Sensors**: for device orientation during measurement
 
-The app uses **Google AdMob** for displaying advertisements. AdMob may collect advertising identifiers and device information. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for details.
+The app uses **Google AdMob** for displaying advertisements. AdMob may collect advertising identifiers and device information. Please refer to [Google's Privacy Policy] for details.
 
-For questions, contact: eizosugiura@gmail.com
+For questions, contact: ez_games@ymail.ne.jp
