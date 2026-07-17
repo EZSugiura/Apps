@@ -1,9 +1,9 @@
 {
   "site": {
-    "developerName": "EZ杉浦",
+    "siteName": "Ezアプリラボ",
     "developerPlayUrl": "https://play.google.com/store/apps/developer?id=EZ%E6%9D%89%E6%B5%A6",
-    "title": "EZ杉浦 個人開発アプリ一覧 | Android無料アプリ・ツール・ゲーム",
-    "description": "エンジニア出身の個人開発者EZ杉浦が公開しているAndroidアプリをすべて掲載。空気線図プロッターやエネルギー計算手帳などの技術者向けツールから、目覚ましライト、謎解き・カジュアルゲームまで、Google Playで配信中の無料アプリを一覧・検索できます。",
+    "title": "Ezアプリラボ | Android無料アプリ・ツール・ゲームまとめ",
+    "description": "Ezアプリラボが手がけるAndroidアプリ・Webゲームをすべて掲載。空気線図プロッターやエネルギー計算手帳などの技術者向けツールから、目覚ましライト、謎解き・カジュアルゲーム、ブラウザで遊べるWebゲームまで、無料で今すぐ遊べます。",
     "github": "https://github.com/EZSugiura",
     "contactEmail": "eizosugiura@gmail.com"
   },

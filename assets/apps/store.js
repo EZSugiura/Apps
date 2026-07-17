@@ -1,12 +1,18 @@
 /*
- * EZ杉浦 個人開発アプリ一覧サイト
+ * Ezアプリラボ サイト
  *
  * アプリを追加する方法:
  *   1. assets/apps/apps.json の "apps" 配列に新しいオブジェクトを1件追加する
  *      (id / name / package / category / shortDescription / description /
  *       features / icon / screenshots / rating / installs / updated /
  *       playUrl / privacyUrl / keywords を指定)
- *   2. このファイルやHTMLは変更不要。ページを開けば自動的にカードが増える。
+ *   2. Webゲームなど、Android/Google Play以外の作品を追加する場合は
+ *      "platform": "web" を指定する（省略時は "android" 扱い）。
+ *      platform:"web" のときは、
+ *        - installs は「ブラウザで無料プレイ」のような自由文言でOK
+ *        - playUrl はプレイページ（例: unityroomの作品URL）
+ *      を指定すると、カードとモーダルのボタン表記が自動で切り替わる。
+ *   3. このファイルやHTMLは変更不要。ページを開けば自動的にカードが増える。
  */
 
 (function () {
@@ -43,6 +49,24 @@
     return days <= 45;
   }
 
+  function isWeb(app) {
+    return app.platform === "web";
+  }
+
+  function installsText(app) {
+    if (app.installsLabel) return app.installsLabel;
+    if (isWeb(app)) return app.installs || "ブラウザで無料プレイ";
+    return (app.installs || "") + " DL";
+  }
+
+  function platformTag(app) {
+    return isWeb(app) ? '<span class="web-badge">WEB</span>' : "";
+  }
+
+  function playButtonLabel(app) {
+    return app.playLabel || (isWeb(app) ? "ブラウザでプレイする" : "Google Playで見る");
+  }
+
   function cardHtml(app) {
     var kw = (app.keywords || []).slice(0, 4).map(function (k) {
       return '<span class="kw">#' + escapeHtml(k) + '</span>';
@@ -53,11 +77,11 @@
       '<div class="app-card-top">' +
       '<img class="app-icon" src="' + app.icon + '" alt="' + escapeHtml(app.name) + ' アイコン" loading="lazy">' +
       '<div class="app-info">' +
-      '<h3 class="app-name">' + escapeHtml(app.name) + '</h3>' +
+      '<h3 class="app-name">' + escapeHtml(app.name) + platformTag(app) + '</h3>' +
       '<div class="app-meta-row">' +
       '<span class="app-category-tag">' + escapeHtml(app.category) + '</span>' +
       "<span>・</span>" +
-      (app.rating ? starRow(app.rating) : (isNew(app.updated) ? '<span class="new-badge">NEW</span>' : '<span>' + escapeHtml(app.installs || "") + " DL</span>")) +
+      (app.rating ? starRow(app.rating) : (isNew(app.updated) ? '<span class="new-badge">NEW</span>' : '<span>' + escapeHtml(installsText(app)) + '</span>')) +
       "</div>" +
       "</div>" +
       "</div>" +
@@ -143,19 +167,25 @@
       return '<span class="kw">#' + escapeHtml(k) + '</span>';
     }).join("");
 
+    var metaLine = "<span>・</span><span>" + escapeHtml(installsText(app)) + "</span>";
+
+    var packageLine = app.package
+      ? "<span>パッケージ名: " + escapeHtml(app.package) + "</span>"
+      : "";
+
     var modalBody = document.getElementById("modal-body");
     modalBody.innerHTML =
       '<div class="modal-header">' +
       '<img class="modal-icon" src="' + app.icon + '" alt="' + escapeHtml(app.name) + ' アイコン">' +
       "<div>" +
-      '<h2 class="modal-title">' + escapeHtml(app.name) + "</h2>" +
+      '<h2 class="modal-title">' + escapeHtml(app.name) + platformTag(app) + "</h2>" +
       '<div class="app-meta-row">' +
       "<span>" + escapeHtml(app.category) + "</span><span>・</span>" +
       starRow(app.rating) +
-      "<span>・</span><span>" + escapeHtml(app.installs || "") + " ダウンロード</span>" +
+      metaLine +
       "</div>" +
       '<div class="modal-actions">' +
-      '<a class="btn-primary" href="' + app.playUrl + '" target="_blank" rel="noopener">Google Playで見る</a>' +
+      '<a class="btn-primary" href="' + app.playUrl + '" target="_blank" rel="noopener">' + escapeHtml(playButtonLabel(app)) + '</a>' +
       (app.privacyUrl ? '<a class="btn-secondary" href="' + app.privacyUrl + '" target="_blank" rel="noopener">プライバシーポリシー</a>' : "") +
       "</div>" +
       "</div>" +
@@ -165,7 +195,7 @@
       (features ? '<div class="modal-section-title">主な機能</div><ul class="feature-list">' + features + "</ul>" : "") +
       '<div class="keyword-chips">' + kw + "</div>" +
       '<div class="modal-footer-meta">' +
-      "<span>パッケージ名: " + escapeHtml(app.package) + "</span>" +
+      packageLine +
       "<span>最終更新日: " + escapeHtml(app.updated || "-") + "</span>" +
       "</div>";
 
@@ -189,8 +219,8 @@
           item: {
             "@type": "SoftwareApplication",
             name: app.name,
-            applicationCategory: app.category === "ゲーム" ? "GameApplication" : "UtilitiesApplication",
-            operatingSystem: "Android",
+            applicationCategory: app.category === "ゲーム" || app.category === "Webゲーム" ? "GameApplication" : "UtilitiesApplication",
+            operatingSystem: isWeb(app) ? "Web" : "Android",
             description: app.shortDescription,
             url: app.playUrl,
             image: app.icon,
