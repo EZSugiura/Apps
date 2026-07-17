@@ -1,0 +1,286 @@
+{
+  "site": {
+    "developerName": "EZ杉浦",
+    "developerPlayUrl": "https://play.google.com/store/apps/developer?id=EZ%E6%9D%89%E6%B5%A6",
+    "title": "EZ杉浦 個人開発アプリ一覧 | Android無料アプリ・ツール・ゲーム",
+    "description": "エンジニア出身の個人開発者EZ杉浦が公開しているAndroidアプリをすべて掲載。空気線図プロッターやエネルギー計算手帳などの技術者向けツールから、目覚ましライト、謎解き・カジュアルゲームまで、Google Playで配信中の無料アプリを一覧・検索できます。",
+    "github": "https://github.com/EZSugiura",
+    "contactEmail": "eizosugiura@gmail.com"
+  },
+  "apps": [
+    {
+      "id": "syouroku",
+      "name": "証録 ‐ 常時証拠録音アプリ",
+      "package": "com.ezcompany.syouroku",
+      "category": "ツール",
+      "shortDescription": "スマホを閉じていても設定時刻に自動で録音。バックグラウンドで証拠を残す録音アプリ。",
+      "description": [
+        "『証録（しょうろく）』は、バックグラウンドで確実に録音し、トラブル時や重要な会話を「証拠」として安全に残せる録音アプリです。通話中でも、スマートフォンを閉じていても録音が続き、通知を最小限に抑えて自然に動作します。",
+        "日付・時刻が自動で記録されるため、いつ・どの場面の音声かを簡単に確認できます。"
+      ],
+      "features": [
+        "バックグラウンド録音対応",
+        "通話録音機能",
+        "日時自動記録",
+        "スケジュール自動録音",
+        "保存場所を自由に指定"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/PXg01GSjwSBgFMv44rzZWt17vnwNp9HqwNIMZiNoOc2XgHbhBjZE0gQmggGDPkORRocePqbi_Y-paikdo_6FDA=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/DlKaoopRzSImXBlTM7Z8HzG583ATwVjjQxhQ1Le4KXmBEwJwLsGPvQ3-0m5X1AObjwyEyLgSlhqQxxnEmzk=w1024-h576",
+        "https://play-lh.googleusercontent.com/2e-Rxzx1P2QEyzXlE8g5ElgdTV_Wkvgy06KuEv-sJ3ROUXov3L55WYfrVqyJdHewA8RO60oaljNm28irxrkn-A=w1024-h576",
+        "https://play-lh.googleusercontent.com/Ga3E-WDuL9thcdAfCH7DPR1PaDQXQya7gy2tMeKUqEBBSFUTPlZH44k_bcjEuvDM9-j7lMGrn1dAbGxUofhAMA=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "10+",
+      "updated": "2026-06-11",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.syouroku",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/privacy.html",
+      "keywords": ["録音アプリ", "ボイスレコーダー", "通話録音", "証拠録音", "バックグラウンド録音", "スケジュール録音", "ハラスメント対策", "会議録音", "面談記録", "ICレコーダー代わり"]
+    },
+    {
+      "id": "battlesim",
+      "name": "2.5Dバトルシミュレーター",
+      "package": "com.ezplaygames.riristage.ririsa_battle_simulator",
+      "category": "ツール",
+      "shortDescription": "編成・スキル・ダメージ検証ができる非公式2.5Dバトルシミュレーター。",
+      "description": [
+        "キャラクター編成・スキル効果・ダメージ計算などを手軽に検証できる非公式バトルシミュレーターアプリです。さまざまな編成やスキル効果を試しながら、バトル結果や火力をシミュレーションできます。",
+        "本アプリは非公式のファン制作アプリです。各作品・企業・団体とは一切関係ありません。"
+      ],
+      "features": [
+        "キャラクター編成シミュレーション",
+        "スキル効果の検証",
+        "ダメージ計算",
+        "属性・効果条件の確認",
+        "バトルログ表示"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/xYF-TCPD_HDUinREAsCKVb4bb0yCD_CG1j-dwgmfwtLVbna0tgzpsmUY8MNtjxG36ru9iWdQkDv-koduUsR-wQ=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vUDwZ8HLdXvsuX4ILfJBz9ZHk-HzwA4JQQVTdY-GUq3jo59y8ah01xnv4n9c2Eoqxl0jkrEi1OUMqE0wqKC_=w1024-h576",
+        "https://play-lh.googleusercontent.com/X-v5rb_TnrjbyLmILt8SZosetRpbIkA_XmfEQcd0NfEUN0CLO3wUamIdx3-YbXx60fuGLulj5D9gP1fJOWWh=w1024-h576",
+        "https://play-lh.googleusercontent.com/zeOilE6UL7cmkfQlnxkgho6EFui8YJL-7FXIpi5uevZN1PDa_Yep9Unu_Ln0Ra402vplyfPoMQZmbFApJAQr1lk=w1024-h576",
+        "https://play-lh.googleusercontent.com/D278ZFpmk1axGAEsKgzh_hVpvOJEgFoubJXR_8CLSrxwL00Y2L6JM9yHGLBCn8AT9Alxn5WPQCcqzxEAmByXSw=w1024-h576",
+        "https://play-lh.googleusercontent.com/nfeyaF28thVp54ftrYJCp2M7M8c4eLiCThaGq0ORTqrynES9K6hh75dQiuyPH2wdveP_5xd15YbWqvTJX_UZZw=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "10+",
+      "updated": "2026-07-11",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezplaygames.riristage.ririsa_battle_simulator",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/privacy-policy.html",
+      "keywords": ["バトルシミュレーター", "ダメージ計算", "編成シミュレーター", "ソシャゲツール", "スキル検証", "火力計算", "非公式攻略ツール"]
+    },
+    {
+      "id": "energycalc",
+      "name": "エネルギー計算手帳",
+      "package": "com.ezcompany.energy_calc_notebook",
+      "category": "ツール",
+      "shortDescription": "電気・熱・流体の計算式をいつでも手軽に。エンジニア必携の計算手帳アプリ。",
+      "description": [
+        "エネルギー計算手帳は、電気・熱・流体・物性の分野をカバーしたエンジニア向け計算アプリです。現場や設計業務でよく使う計算式を素早く呼び出し、値を入力するだけで瞬時に答えが得られます。",
+        "プラント設計・設備管理・省エネ診断・学習など、幅広い場面でご活用いただけます。インターネット不要ですべてオフラインで動作します。"
+      ],
+      "features": [
+        "オームの法則・電力・電力量などの電気計算",
+        "熱伝導・熱伝達・放射伝熱などの熱計算",
+        "体積流量・質量流量・ベルヌーイの定理",
+        "飽和水蒸気表・湿り空気線図など物性テーブル(補間機能付き)",
+        "よく使う計算をお気に入り登録"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/bBcQyiUVCEJUOGXbmTxz24MOMS0m60jzNKe2HPt7VPIp1diS1_efXv70kIitECvTb9cJ51t1BbCBMCi45Ytw=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/uSVUkXD2LUb0ERsjYbgeomF4zI1cGIk6TCHuwVhUMxZ7iuZYHITVhfMZsOIvGf883_z1CurDFYM7ETMBTPcEuQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/wai0-8NDwJViRS_KwxDUQ3ZETrnoO4gooBIahswCCCuEoCesb6G0ghsiiOe5ePZP-a2s7cl76V5bPE6jFglo=w1024-h576",
+        "https://play-lh.googleusercontent.com/QgQBboDUajj3u7Rdpm4N7uS9KmKqJ5Jubs7Yw-nzN_oUhj6KeLOnhgi_AdfiwTaUOP7-PoJGs7SKzbDdmVlNVOA=w1024-h576",
+        "https://play-lh.googleusercontent.com/BmnkHa1WJIrrB9yyYB7SQ7KeucUieIOvPfAhGZLFmzCwfWditsA8XN73feTnSyCbgj6yd2QGimjPcu99ofeb=w1024-h576",
+        "https://play-lh.googleusercontent.com/sw8ZX8-z-SxW21dqZyE6logMY8PMV_o12qpmvaYMDEkTx_E7mrC2p8R6CTVaKiCaDkjea-knA2sxDdxBft_bmw=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-06-10",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.energy_calc_notebook",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/energy_calc_notebook_privacy_policy.html",
+      "keywords": ["熱計算", "電気計算", "流体計算", "エンジニアアプリ", "技術者電卓", "湿り空気線図", "熱物性値", "プラント設計", "省エネ診断", "配管サイズ表"]
+    },
+    {
+      "id": "psychro",
+      "name": "空気線図プロッター Psychrometric Chart",
+      "package": "psychrometricchart.EZCompany",
+      "category": "ツール",
+      "shortDescription": "温度と相対湿度・露点温度から空気線図上に状態をプロットできる無料アプリ。",
+      "description": [
+        "このアプリは無料アプリです。温度と相対湿度または露点温度の2点の情報から空気線図上にプロットする事が出来ます。",
+        "プロットされたポイントの空気の状態、温度[℃]・相対湿度[%Rh]・絶対湿度[kg/kg-DA]・露点温度[℃]・比エンタルピー[kJ/kg-DA]を表示する事が出来ます。同じ空気線図上に最大9ポイントまでプロットする事も出来ます。"
+      ],
+      "features": [
+        "温度×相対湿度／露点温度から自動プロット",
+        "絶対湿度・比エンタルピーを同時算出",
+        "最大9ポイントの同時プロット比較",
+        "空調・HVAC設計の検討に最適"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/mRqnUrkrkVgsBtXs-N1EXZtKyn1daKISti2uC7Ff2AxU9ZqlrTKN8vUe8xFHWkIOHdnmM9N3xSJv6QiiK7VK=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vPRDLSSRoa7TDBrtkEoB3YE0I5uf6YM2roB2QsYxUgnrdRBbfOQR3cS6D1Tt92DXl05xsNp_bBzc2oekRyd5C_4=w1024-h576",
+        "https://play-lh.googleusercontent.com/Fg0vsxaIPuvpqX9bXFiJ7wdZCTyni4KSUhxicz-Kwm0l2rksBHSrMpgL_g7VCizPZfLcTEZpEUtgARaN9GgQ_10=w1024-h576",
+        "https://play-lh.googleusercontent.com/2-MaYA_pklUiopeXzcYwASnoVybAWgewkEg6FervYUh5Z_Gf_bnwV958hrFjBBd2655YlDVupA82a7EHnU5K=w1024-h576"
+      ],
+      "rating": {"score": 4.2, "count": 51},
+      "installs": "1万+",
+      "updated": "2025-11-15",
+      "playUrl": "https://play.google.com/store/apps/details?id=psychrometricchart.EZCompany",
+      "privacyUrl": "https://lab316.github.io/app-static-page/ja/privacy.html?company=EZ_sugiura",
+      "keywords": ["空気線図", "湿り空気線図", "Psychrometric Chart", "湿度計算", "エンタルピー計算", "空調設計", "露点温度", "絶対湿度", "HVACツール"]
+    },
+    {
+      "id": "voicetimetable",
+      "name": "しゃべるアラームスケジューラー",
+      "package": "com.ezcompany.voicetimetable",
+      "category": "ツール",
+      "shortDescription": "条件分岐を含むオリジナルのスケジュール組み立て型しゃべるアラームアプリ。",
+      "description": [
+        "条件分岐を含むオリジナルのスケジュール組み立て型のしゃべるアラームアプリです。忘れっぽい子供の朝の支度の声かけや、お弁当の日の注意喚起など、様々な場面で自分に合ったオリジナルのアラームを組むことが出来ます。",
+        "起床から朝のルーティーンを全て設定可能。気象情報を取得して雨なら傘を忘れないよう条件分岐したり、Googleカレンダーと連携して「お弁当の日」などの予定に応じた声かけもできます。"
+      ],
+      "features": [
+        "条件分岐付きスケジュール設定",
+        "天気連動で持ち物リマインド",
+        "Googleカレンダー連携",
+        "音声での声かけ通知"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/9I7w0OLHBykJRrOjH0CCrXX1DyuWsaWvmR5V2i-_1SuDhjvdkJTAn9qEaGzWAcAZvBmWxLkAkI3JSXv4PHMenw=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/rzbJnYkMhDyULpnEZgVMnHycZYOZoNN-8j9PR394YSbt7o0sru1oBfCgA6gh9GJsF9_fa8odd-EKWPZVENzB38c=w1024-h576",
+        "https://play-lh.googleusercontent.com/QcEdVzoxnYDWMGA6mo0SoqxiwNmRdLHth3xEs3Th8Phf_sKvUgTECwSZHQ6YnR1J20in8bOW03IS6tbyVzmuqQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/7qqJIWM74xwY6NpchlEYX8ABr1GjJsp5948Z8nDIVBvKrXKLpw1sAvVd29L011AzXiqJFAKjs8K3Nl4HqMbCUbU=w1024-h576",
+        "https://play-lh.googleusercontent.com/eFzuFZeN99XUbsolKNWiKaeKDYPQEqIeFttfHPFzPBXaoJBwNLtwNAqSwvqLXv92I7PT9xL5HMuF10Lu3wYTNQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/LhiG02_CMLCHx-z6_OUgyuF_G18l5twDEj_S0CYclXuEDWk0A0kIv-CXUEgrsgzwszjzI7CWacPxQoit4Ox_Hpo=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-07-12",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.voicetimetable",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/PRIVACY_POLICY_voicetimetable",
+      "keywords": ["目覚ましアプリ", "音声アラーム", "スケジュール管理", "子供起こすアプリ", "Googleカレンダー連携", "天気連動アラーム", "お弁当リマインダー"]
+    },
+    {
+      "id": "ghost",
+      "name": "おばけドッキリ",
+      "package": "com.ezgame.ghostplaygame",
+      "category": "ゲーム",
+      "shortDescription": "おばけになって住民を驚かせよう！シンプル操作で子供でも楽しめるカジュアルゲーム。",
+      "description": [
+        "このゲームは自身の娘の要望をきっかけに作成した子供向けのゲームです。できる限り簡単な操作でテンポよく遊べるようにしています。過激な表現などは避けていますので、お子様の気晴らしにも遊ばせやすい内容です。",
+        "おばけになって住民を探し、見つからないように脅かすボタンを押す。見つかったら最初からやり直し、何度でも遊べます。"
+      ],
+      "features": [
+        "簡単操作でサクッと遊べる",
+        "子供向けの安心設計",
+        "何度でもリトライ可能"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/VyxZOeD2S8qUTQrjewF5qB9n1vTeHUYaZFmXrmb4b_2OOHbvs7DSAOI4gqBx_RH2ngMAJBK3Wr2GZY7tDhgcJQ=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/XMC3aDN714cDrAuxixIrVVeQf9fjppVoKRk9JjqbSjznqCHWPgptayPNFfQBd73CATIo5V8Hwbx3TAN33UaZMg=w1024-h576",
+        "https://play-lh.googleusercontent.com/0j8dOBogYLdOrK1j6vWXdUT3ugRil6XjczYV5wNQptXspmWovQdGEuOv8tPa2D5VCNVm_Gdp_tBsI54sz2KHKA=w1024-h576",
+        "https://play-lh.googleusercontent.com/XVEEBhYn1QVKqd8rtiyvK5kTy9uFwHI2eqC4NWTeFQFQWUvU6SQ-X4UE9SDupkcFN_ucqk_PXuYgf_0hx9_EkN4=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-05-03",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezgame.ghostplaygame",
+      "privacyUrl": "https://github.com/EZSugiura/Apps/blob/main/privacy-policy.md",
+      "keywords": ["子供向けゲーム", "おばけゲーム", "ドッキリアプリ", "無料ゲーム", "カジュアルゲーム", "簡単操作ゲーム"]
+    },
+    {
+      "id": "fable",
+      "name": "ファブルからの挑戦状",
+      "package": "com.ezcompany.fable_riddle_game",
+      "category": "ゲーム",
+      "shortDescription": "最強生成AIが考えた高難易度の脱出ゲーム風謎解きアプリ。",
+      "description": [
+        "生成AIが考えた謎解みに挑戦しませんか？AIが遺した10の封印部屋を解き、最後の言葉に辿り着く——アプリ全体がひとつの脱出ゲームです。",
+        "難易度は超絶高難易度ですが、アプリ内の情報と一般教養だけで必ず解けるように設計。検索しても答えが出ないオリジナルの多段組み合わせ謎に挑戦できます。"
+      ],
+      "features": [
+        "10の封印部屋を解く脱出ゲーム",
+        "アプリ内の手がかりだけで解ける設計",
+        "検索耐性のあるオリジナル謎解き",
+        "段階的なヒント機能"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/INQcSf95cFcK7YxesceF9jORjduAdfL9qUJ4DvJFgQbPbIbZBTZRXL14TtFERaOMVpLDgk7JkZ3huJJPRL2C=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/GW_q-bdO7DiPZj5PP4v0TSw2b2MxN9-GMdtP466dcEr95JkgXjt11pEyGKWZvm6jCXiLWdL6JwRxi2aWJVRMcQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/InDNdG6t0Bn32NZa5IIFleF4seLYjDXn3YVAFWFzCt91w1mURJ2XO3XKu62rKwb-kvG2WkbBn877WXfuFNA-=w1024-h576",
+        "https://play-lh.googleusercontent.com/C_FL-l7r8aUgAE0B-Lf353nTYG5zQ6O4fiduX5Cw-8NL-QzwptrS9Kv5iT0F29Ah6Ib76_X1B1Cby_BUzTKo=w1024-h576",
+        "https://play-lh.googleusercontent.com/2gDpDMfl1cWErmliW5qEXad_ToxXDHwExCsQQyesSyar1AfXoh26bQ4k4L1luzmWjvFv91nMdAwlNzoUFX52=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-07-15",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.fable_riddle_game",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/fable_riddle_game_PRIVACY_POLICY.md",
+      "keywords": ["謎解きゲーム", "脱出ゲーム", "AI謎解き", "高難易度パズル", "頭脳ゲーム", "暇つぶしアプリ"]
+    },
+    {
+      "id": "luxmapper",
+      "name": "照度分布実測アプリ",
+      "package": "com.luxmapper.lux_mapper",
+      "category": "ツール",
+      "shortDescription": "スマホカメラで室内の照度を測定し、ヒートマップで光の分布を可視化。",
+      "description": [
+        "照度分布実測アプリ（LuxMapper）は、スマートフォンのカメラを照度センサーとして活用し、室内の明るさを手軽に測定・記録できるアプリです。測定結果をヒートマップで直感的に可視化できるため、照明計画の確認や改善に役立ちます。",
+        "本アプリはカメラの露出情報を利用した推定値であり、専用の照度計と同等の精度を保証するものではありません。より正確な測定にはキャリブレーション機能をご活用ください。"
+      ],
+      "features": [
+        "カメラを使ったリアルタイム照度計",
+        "複数地点の照度分布測定",
+        "カラーヒートマップ表示",
+        "測定結果をプロジェクト管理",
+        "端末ごとのキャリブレーション補正"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/Jya0NzmNX-G3wC5_CCxJf0xASoH9ORx6S1vhdEPS_p86RXPsjrhH-t0ZQlzvJ6A05WGP1MXDrqsINSwWx8UiyQ=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/amAPlJW--KaHHC29Jve9mMCpB2CzDi8V3flDRMqZU-CwsWTXRr-YtPLPv4PwJqUkpmxulyw17SYSG3oWXrWn5sk=w1024-h576",
+        "https://play-lh.googleusercontent.com/lOJLRH-3thb0QRWKhkey0cITNILbz6f7-oUtu6396hvAYBrOfFW_blvoLjtw6EU39r3Sgw3KLZSZ3wd6m5EIgTc=w1024-h576",
+        "https://play-lh.googleusercontent.com/LwYoS6541M8oramC6dTklAiy87b7TYE32MKSKStSWoHVRrRzlRi23_Ijn73fsBB222yZHtKJUo4y20yzTrS7ZUs=w1024-h576",
+        "https://play-lh.googleusercontent.com/LT5eULY96F7jYcvSpeQOYJmdAD2swzkCrlaYgDNs4_A43cP0GINONet_NQsyeczViW4Zpk9feUu1FuvzPgu2iw=w1024-h576",
+        "https://play-lh.googleusercontent.com/p4dnWh6T1o0G77DJhVYwqv5pRgFDNUQkrfGlVw9S3TEs5yn0nypJHbyWYUuy_M58bjCNaHc8HloYmFql6qHr=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-07-11",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.luxmapper.lux_mapper",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/lux_mapper_privacy_policy.md",
+      "keywords": ["照度計", "照度測定", "ルクス測定", "ヒートマップ", "照明計画", "JIS照度基準", "設備点検アプリ"]
+    },
+    {
+      "id": "alarmlight",
+      "name": "目覚ましライト",
+      "package": "com.ezcompany.alarmlight",
+      "category": "ライフスタイル",
+      "shortDescription": "アラーム時刻になったらカメラのフラッシュが点灯するだけのシンプルな目覚まし。",
+      "description": [
+        "標準UIに近く不要な機能は省いたシンプルで使いやすい光目覚ましライトです。設定したアラーム時刻になるとカメラのフラッシュライトが点灯します。",
+        "朝日が昇るのが遅い冬などでも、光による自然な目覚めをサポートします。他の目覚ましアプリとの併用も可能です。"
+      ],
+      "features": [
+        "設定時刻にフラッシュライト点灯",
+        "シンプルな標準UI",
+        "他の目覚ましアプリと併用可能"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/YMYdenhIVd6-wppZ5O7zRGrLjISQjB92cCbmFzk19RJtX-dPZPGEMFLIUM1jMryG0axQKALNeLAyX5_gjLifoDw=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Tb2xq7jwIrvp2jm1Ajqh1NIC_cICSL5bErpC66JtQRkA_sAu9qhjP1EuHHSO8SO3V7iBDmOmVlRXHnbwucVKsA=w1024-h576",
+        "https://play-lh.googleusercontent.com/GKAoIGzIFdKrnmrB_hTVQDFBVS1D_kZMnNYnBEqhkfvDktYCkJGXAGnU_mjpNZ150qIAHWoaeIPUCKMmIXYuLA=w1024-h576",
+        "https://play-lh.googleusercontent.com/pO2uwqR8VG-0aam_FuqvevMb3nJkJUjbNNWkVwFq1fLDYvJ8-wlbVS5fXR60F8gbyR-VgPXT5QiKCr2WwhvLFc0=w1024-h576",
+        "https://play-lh.googleusercontent.com/vxUUYTr7K6qhLIWz9qDJOv4LzyeGUvOdPEKTz4rT22ujdBQPPRtL9QGqz7Yhz1dVxLhZ7LBJPDH4aVXK94CISQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/7q6i5diaBLrdIl0g2f-8-2j7u7sOuxeyhd_mGwXRDFN7Vsl1y-vL9h0glzfV26Dj5El-3Tka0pv2ZPevI4eS5g=w1024-h576"
+      ],
+      "rating": {"score": 3.0, "count": 5},
+      "installs": "1000+",
+      "updated": "2025-12-20",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.alarmlight",
+      "privacyUrl": "https://lab316.github.io/app-static-page/ja/privacy.html?company=EZ_sugiura",
+      "keywords": ["光目覚まし", "フラッシュライト目覚まし", "シンプル目覚ましアプリ", "冬の起床サポート", "自然な目覚め"]
+    }
+  ]
+}
