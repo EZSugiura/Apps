@@ -329,6 +329,38 @@
       "playUrl": "https://unityroom.com/games/destressharmony",
       "privacyUrl": null,
       "keywords": ["ブラウザゲーム", "リズムゲーム", "ストレス発散ゲーム", "無料ゲーム", "Unityゲーム", "ユニークゲーム"]
+    },
+    {
+      "id": "kaowall",
+      "name": "フェイスウォール",
+      "package": "com.ezcompany.kaowall",
+      "category": "リズムゲーム",
+      "shortDescription": "カメラを使ってリアルタイムに顔の表情・頭の動き・手のサイン・声の大きさを認識するカジュアルゲームです。",
+      "description": [
+        "KAO WALL（カオウォール）は、フロントカメラを使ってリアルタイムに顔の表情・",
+        "頭の動き・手のサイン・声の大きさを認識するカジュアルゲームです。",
+        "画面に迫ってくる「壁の穴」のお題を、あなたの体で表現してクリアしましょう！"
+      ],
+      "features": [
+        "リズムゲーム",
+        "頭の動き・手のサイン・声の大きさを認識",
+        "画面に迫ってくる「壁の穴」のお題"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/OUTXkmZNV6CREmiBRYFohvabO9BM6uUc3b37R6ChnWeJceuDVqcJ4hahA2WuX9UmYfxjLfaVQaem6DKxFPvD9A=s48-rw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/mtF64ZHnL7ByDlmC99kjieiwekI4bJSogYRPMdt_W5KgWlSQdQh2mzOVXxZ0b7jt1ut6bIK9rAXYcLUsLgg9PFQ=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/jRduk_tkOtP4YuOvHWTcOZt5HMpM0OS26krGyh89yaIRkRKlECcryFoYszva7cM0sOANyfesS5wz9stOV3sCfg=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/jeSuz66sQD31rRFHzqjWU6yC5aQfJ9Zn8ddgQTx1jlT3PmT1XxnrAhjBM3fAa_jI_onl9JCVVLmfqxhJ6BJaPQ=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/4CpgM9Iu3QYB1PixSYWvBM8gxoRHNZmKnBnmsfrXpMsV2NGLkUywZQy6YBoPuSWmHGTMxj1mPfrga9fI47sDl54=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/hWFbm993qhU83UKdutCcPTdSqhy18AGGrgl9YrRX7oWQVkKoJ8iC2umoVVGffP0wuaRRpZ9xF5TnaJdDa4AX=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/-O0Z8SJmQuVl5iq464ttmNtYErWC6Q4dJ7YE25a22i2R-WIxU60Sqv310SzYFCAmWrwp2-Gt2lvN6eijItB1=w2560-h1440-rw"
+      ],
+      "rating": {"score": 3.0, "count": 5},
+      "installs": "1+",
+      "updated": "2026-7-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.kaowall",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/privacy_policy_facewall.html",
+      "keywords": ["リズムゲーム", "ブレインウォール", "壁穴", "ギャグ・バズ系", "簡単"]
     }
   ]
 }
