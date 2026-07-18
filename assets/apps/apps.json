@@ -361,6 +361,37 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.kaowall",
       "privacyUrl": "https://ezsugiura.github.io/Apps/privacy_policy_facewall.html",
       "keywords": ["リズムゲーム", "ブレインウォール", "壁穴", "ギャグ・バズ系", "簡単"]
+    },
+    {
+      "id": "rotationnumber",
+      "name": "回転パズルナンプレ",
+      "package": "com.ezcompany.rotationnumber",
+      "category": "ゲーム",
+      "shortDescription": "数字を「書き込む」のではなく「回転」させる、まったく新しいナンプレ",
+      "description": [
+        "『回転パズルナンプレ』は、盤面のマス目をタップして数字を入力する従来のナンプレとはまったく異なる、",
+        "指でリングやラインをくるくる回転させて数字を揃える新感覚パズルゲームです。"
+      ],
+      "features": [
+        "数字を「書き込む」のではなく「回転」させる",
+        "回転させて数字を揃える新感覚パズルゲーム",
+        "初級から超級まで、全19ステージ",
+        "短時間でも遊べる歯ごたえのあるゲームを探している方"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/dS1YQ-6u4r3-qyfA8XwKza8cK_BKBONH8IsXVPA3zvjQDJcN9sGS4Wd7F4B5xNGmQ9p8nU5ib-jQXo19OakYDw=w240-h480-rw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/Wyyu2JB2euV09H3AoL3QF6NAgAJYNZHp00ork95VPHJ5g4yzJsXpHNwqOSZByJoCpG9-_RIxGeXEuq5F3RhJkg=w2560-h1440-rw,
+        "https://play-lh.googleusercontent.com/cWn8kyEIkzUzqKODMjt_VHERox7g2iLcnFgsOTwecOY0GNPpGqQviXm87lY3ax1La80k9D52MDpYeDi75DmY1Q=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/4oWKOWVBe3wU7rWkdbzhgwiYN0iBQ0MLLUgm-aUyOt8oldUwbRrJ9bq4ha_kOKnEo6_BfytzDrSZiaxt2yaKKg=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/zeZUuKmUIEuGctH1ZYX1kb-Tu6MMOGWfaF6KwYVHa5s7u9We1MdjQbMeSw7tRPCxeAnuD8pVfq74IFzfOseYbA=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/9jTqxdgddw2v_NSpuNp8CqIAzgzkG0eyVS0LxYNa_nGCWM7alC_XAj6FeoKgOW3z6J8wo96I-St3FOpkMxPO=w2560-h1440-rw"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-07-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.rotationnumber",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/rotationnumber_privacy_policy.html",
+      "keywords": ["ナンプレ", "回転パズル", "数字合わせ", "高難易度パズル", "頭脳ゲーム", "暇つぶしアプリ"]
     }
   ]
 }
