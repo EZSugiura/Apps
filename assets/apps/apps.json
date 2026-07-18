@@ -281,6 +281,54 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.alarmlight",
       "privacyUrl": "https://lab316.github.io/app-static-page/ja/privacy.html?company=EZ_sugiura",
       "keywords": ["光目覚まし", "フラッシュライト目覚まし", "シンプル目覚ましアプリ", "冬の起床サポート", "自然な目覚め"]
+    },
+    {
+      "id": "suuchi",
+      "name": "スウゥチー",
+      "platform": "web",
+      "category": "Webゲーム",
+      "shortDescription": "自分より小さい数字の敵を倒して大きな数字を目指す、見下ろし型アクションゲーム。",
+      "description": [
+        "大きな数字を作ってクリアを目指す、見下ろし型アクションゲームです。自分より小さい数字の相手を倒すと自分の数字が変化し、逆に大きな相手を攻撃すると負けてやり直しになります。",
+        "全ての敵を倒す順番を見極めて、ステージクリアを目指しましょう。ブラウザだけですぐに遊べます。"
+      ],
+      "features": [
+        "スティック操作でシンプルに遊べる",
+        "数字の大小で強さが変わる独自ルール",
+        "インストール不要、ブラウザで即プレイ"
+      ],
+      "icon": "https://os-worker.unityroom.com/unityroom_production/icon/42500/icon_20240101_065159.gif?h=1704059519",
+      "screenshots": [],
+      "rating": null,
+      "installs": "1,928 プレイ",
+      "updated": "2023-03-11",
+      "playUrl": "https://unityroom.com/games/suuchi",
+      "privacyUrl": null,
+      "keywords": ["ブラウザゲーム", "無料ゲーム", "アクションゲーム", "Unityゲーム", "暇つぶしゲーム", "PCブラウザゲーム"]
+    },
+    {
+      "id": "destressharmony",
+      "name": "デストレスハーモニー",
+      "platform": "web",
+      "category": "Webゲーム",
+      "shortDescription": "蚊になって不快な音を立てながら逃げ回る、新感覚リズムシューティング。",
+      "description": [
+        "蚊になって不快な想いをさせてストレス発散する、新感覚のリズムシューティングです。「Good」のようなタイミング判定はなく、ただ敵から逃げ続けるシンプルなルール。",
+        "指でなぞって不快な音を立ててスコアを競います。スコアが上がると不快モードが変化し、攻撃パターンも変わっていきます。とても不快な音が出るのでご注意ください。"
+      ],
+      "features": [
+        "ドラッグ操作だけの簡単プレイ",
+        "スコアに応じて変化する攻撃パターン",
+        "10分程度で遊べる短時間リズムアクション"
+      ],
+      "icon": "https://os-worker.unityroom.com/unityroom_production/icon/70852/icon_20240101_070150.gif?h=1704060110",
+      "screenshots": [],
+      "rating": null,
+      "installs": "80 プレイ",
+      "updated": "2024-01-01",
+      "playUrl": "https://unityroom.com/games/destressharmony",
+      "privacyUrl": null,
+      "keywords": ["ブラウザゲーム", "リズムゲーム", "ストレス発散ゲーム", "無料ゲーム", "Unityゲーム", "ユニークゲーム"]
     }
   ]
 }
