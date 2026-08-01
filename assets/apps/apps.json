@@ -392,6 +392,69 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.rotationnumber",
       "privacyUrl": "https://ezsugiura.github.io/Apps/rotationnumber_privacy_policy.html",
       "keywords": ["ナンプレ", "回転パズル", "数字合わせ", "高難易度パズル", "頭脳ゲーム", "暇つぶしアプリ"]
+    },
+    {
+      "id": "airblowsim",
+      "name": "Air Blow Simulator（エアブローシミュレーター）",
+      "package": "com.ezcompany.airblow_sim",
+      "category": "ツール",
+      "shortDescription": "配管設計から流量・圧力損失・衝撃圧力まで計算できるエアブロー配管のエンジニアリングシミュレーター。",
+      "description": [
+        "エアブローシミュレーターは、圧縮空気ブローノズル配管システムの設計、流量、圧力損失、衝撃圧力の計算を行うためのエンジニアリングシミュレーションツールです。レギュレーター・分岐管・パイプ・チューブ・制御弁・ノズルを自由に組み合わせて配管システムを設計でき、複数ノズルを備えたシステムにも対応しています。",
+        "供給圧力と温度を入力するだけで、各ノズルのブロー圧力・衝撃圧力・流量（NL/分）を自動計算し、流れがチョーク（音速）か亜音速かも判定。目標衝撃圧力から必要供給圧力を逆算する機能や、スタンドオフ距離・ボア拡大の比較シミュレーションも搭載しています。工場ラインのエア配管設計や保守点検、省エネのための配管見直しなど、生産・保全エンジニアの検討業務に活用できます。"
+      ],
+      "features": [
+        "レギュレーター・分岐管・ノズルなどを組み合わせた配管設計",
+        "供給圧力・温度からブロー圧力/衝撃圧力/流量を自動計算",
+        "軸方向動圧・衝撃面圧力・壁面ジェット分散のヒートマップ表示",
+        "目標衝撃圧力から必要供給圧力を求める逆シミュレーション",
+        "配管設計をデバイスに保存していつでも呼び出し可能"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/A6mSMlbUanzUyUSb5jJhgIZER9Wv7QlEb0Cfbztf9FfbVpNhV-7I7PqOu4TkNsuAh9bCxjCpkDorHHXhJf5LwA=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/vfpibl9fg9Z2g_cFI_0jGDb-WJHk-ajGDj6M46uLctsvApEaNUMlOIsGE6yMDiHhuAIWeHZ88ec4hOz7T_8sKQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/9RTcwJS0tkxBMtSkcKvtJ5emrzK1f0L_M7kT570gTnAJ2g3jOVKEELtUqP_VJv0FHho-NRCyRUzC9HBb-CqxEg=w1024-h576",
+        "https://play-lh.googleusercontent.com/KifGhZ86289I4oCE6I4XpLmUQXl2FJMkr5V8ZRDvT4-Gaei7ADBa1c9zATOsVMS8heoLcCtJCDFi8p1umAYI=w1024-h576",
+        "https://play-lh.googleusercontent.com/szMmLzrbGOJmWfxaCNMb2Y9LzgnLJx52AdGXCuuyB_RDzdEuOcUtjTccKUh8uKg22xWX_3mQrQE6aR3pRHV15H8=w1024-h576",
+        "https://play-lh.googleusercontent.com/spv_lgBN_QpqN_eX3XJ1l9o7Egd2Qca83J9i7q9HQPXWqX2ussVaZqtLidia6ffBoWqDX49x0riow8gxxSgFjQ=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-07-25",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.airblow_sim",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/airblow_sim_privacy_policy.html",
+      "keywords": ["エアブローシミュレーター", "配管設計", "圧力損失計算", "ノズル設計", "流量計算", "衝撃圧力", "エンジニアリングツール", "生産技術", "省エネ設計", "コンプレッサーエア"]
+    },
+    {
+      "id": "growthlapse",
+      "name": "タイムラプス成長記録撮影カメラ",
+      "package": "com.ezcompany.growthlapse",
+      "category": "写真",
+      "shortDescription": "同じアングルで撮り続けて「変化の過程」を記録・可視化するタイムラプス撮影カメラアプリ。",
+      "description": [
+        "「タイムラプス成長記録撮影カメラ」は、同じアングルで撮り続けることで「変化の過程」を記録・可視化できるカメラアプリです。撮影時に前回の写真を半透明で重ねて表示するので、アングルを合わせてブレのない記録が撮れます。透明度はスライダーでいつでも調整可能です。",
+        "対象は子供の成長記録に限らず、ペット・魚・植物の生育など幅広い用途で利用可能。撮影した写真はテーマ別のアルバムにまとめて管理でき、コマ送り表示でじっくり比較したり、蓄積した写真からMP4のタイムラプス動画を書き出すこともできます。写真やアルバム情報はすべて端末内のローカルストレージに保存され、クラウド同期は行わず、プライベートなアルバムには生体認証・PINロックも設定できます。"
+      ],
+      "features": [
+        "前回の写真を半透明で重ねて同じアングルで撮影",
+        "子供・ペット・植物など幅広い対象を記録",
+        "コマ送り表示で写真を並べて変化を比較",
+        "蓄積した写真からMP4タイムラプス動画を書き出し",
+        "データは端末内ローカル保存、生体認証・PINロック対応"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/Mw25K93JjAx8YAvWVZQBn83y6agqNREO3VycGG-fZAFngYqoqBdUBufW4ZAQseBsgY_Cse2BLDO34xVotXWq=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/8GBEI6fihb4BnjDxDKdKx-dELXKRocqxnBYJHyxQMbkHfRvWm1BsmtIpgcb_oAaxr4KQsZ-U9Bh1qjUCEvfVkhY=w1024-h576",
+        "https://play-lh.googleusercontent.com/nnbBk2A5Iwc49FXzBeGym0pZJiIxHW_QPzEt1UxcWvgezPVRVxsdYPd_G9oKVhVgBEpHabnxSOaNiF9d2BNSvg=w1024-h576",
+        "https://play-lh.googleusercontent.com/2cCAUx8xhSeiIaM9EThSGujZMTab49_u8MxT8QdIuRQxAA23CtBS72JsIBGMycdmhmDqatysqrnPrtdv4kEcYhU=w1024-h576",
+        "https://play-lh.googleusercontent.com/sJRlOd26x-7Xcf04viabLvgj-nDyhhMI2qlzb_TJP9u9dGIyf31B4OrnbOg4ybGXJgDUSVjggatBaXVn5Iqm=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-07-25",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.growthlapse",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/growthlapse_privacy_policy.html",
+      "keywords": ["タイムラプスカメラ", "成長記録アプリ", "子供の成長記録", "定点観測カメラ", "植物観察記録", "ペット記録アプリ", "半透明重ね撮影", "タイムラプス動画作成", "ローカル保存カメラ"]
     }
   ]
 }
