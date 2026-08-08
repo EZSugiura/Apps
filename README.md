@@ -3,3 +3,6 @@
 
 プライバシーポリシー：
 https://lab316.github.io/app-static-page/ja/privacy.html?company=EZ_sugiura
+
+公開URL
+https://ezsugiura.github.io/Apps/
