@@ -74,7 +74,7 @@
       "id": "energycalc",
       "name": "エネルギー計算手帳",
       "package": "com.ezcompany.energy_calc_notebook",
-      "category": "ツール",
+      "category": "業務効率化",
       "shortDescription": "電気・熱・流体の計算式をいつでも手軽に。エンジニア必携の計算手帳アプリ。",
       "description": [
         "エネルギー計算手帳は、電気・熱・流体・物性の分野をカバーしたエンジニア向け計算アプリです。現場や設計業務でよく使う計算式を素早く呼び出し、値を入力するだけで瞬時に答えが得られます。",
@@ -106,7 +106,7 @@
       "id": "psychro",
       "name": "空気線図プロッター Psychrometric Chart",
       "package": "psychrometricchart.EZCompany",
-      "category": "ツール",
+      "category": "業務効率化",
       "shortDescription": "温度と相対湿度・露点温度から空気線図上に状態をプロットできる無料アプリ。",
       "description": [
         "このアプリは無料アプリです。温度と相対湿度または露点温度の2点の情報から空気線図上にプロットする事が出来ます。",
@@ -135,7 +135,7 @@
       "id": "voicetimetable",
       "name": "しゃべるアラームスケジューラー",
       "package": "com.ezcompany.voicetimetable",
-      "category": "ツール",
+      "category": "ライフスタイル",
       "shortDescription": "条件分岐を含むオリジナルのスケジュール組み立て型しゃべるアラームアプリ。",
       "description": [
         "条件分岐を含むオリジナルのスケジュール組み立て型のしゃべるアラームアプリです。忘れっぽい子供の朝の支度の声かけや、お弁当の日の注意喚起など、様々な場面で自分に合ったオリジナルのアラームを組むことが出来ます。",
@@ -224,7 +224,7 @@
       "id": "luxmapper",
       "name": "照度分布実測アプリ",
       "package": "com.luxmapper.lux_mapper",
-      "category": "ツール",
+      "category": "業務効率化",
       "shortDescription": "スマホカメラで室内の照度を測定し、ヒートマップで光の分布を可視化。",
       "description": [
         "照度分布実測アプリ（LuxMapper）は、スマートフォンのカメラを照度センサーとして活用し、室内の明るさを手軽に測定・記録できるアプリです。測定結果をヒートマップで直感的に可視化できるため、照明計画の確認や改善に役立ちます。",
@@ -286,7 +286,7 @@
       "id": "suuchi",
       "name": "スウゥチー",
       "platform": "web",
-      "category": "Webゲーム",
+      "category": "ゲーム",
       "shortDescription": "自分より小さい数字の敵を倒して大きな数字を目指す、見下ろし型アクションゲーム。",
       "description": [
         "大きな数字を作ってクリアを目指す、見下ろし型アクションゲームです。自分より小さい数字の相手を倒すと自分の数字が変化し、逆に大きな相手を攻撃すると負けてやり直しになります。",
@@ -310,7 +310,7 @@
       "id": "destressharmony",
       "name": "デストレスハーモニー",
       "platform": "web",
-      "category": "Webゲーム",
+      "category": "ゲーム",
       "shortDescription": "蚊になって不快な音を立てながら逃げ回る、新感覚リズムシューティング。",
       "description": [
         "蚊になって不快な想いをさせてストレス発散する、新感覚のリズムシューティングです。「Good」のようなタイミング判定はなく、ただ敵から逃げ続けるシンプルなルール。",
@@ -334,7 +334,7 @@
       "id": "kaowall",
       "name": "フェイスウォール",
       "package": "com.ezcompany.kaowall",
-      "category": "リズムゲーム",
+      "category": "ゲーム",
       "shortDescription": "カメラを使ってリアルタイムに顔の表情・頭の動き・手のサイン・声の大きさを認識するカジュアルゲームです。",
       "description": [
         "KAO WALL（カオウォール）は、フロントカメラを使ってリアルタイムに顔の表情・",
@@ -360,7 +360,7 @@
       "updated": "2026-07-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.kaowall",
       "privacyUrl": "https://ezsugiura.github.io/Apps/privacy_policy_facewall.html",
-      "keywords": ["リズムゲーム", "ブレインウォール", "壁穴", "ギャグ・バズ系", "簡単"]
+      "keywords": ["ゲーム", "ブレインウォール", "壁穴", "ギャグ・バズ系", "簡単"]
     },
     {
       "id": "rotationnumber",
@@ -391,13 +391,13 @@
       "updated": "2026-07-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.rotationnumber",
       "privacyUrl": "https://ezsugiura.github.io/Apps/rotationnumber_privacy_policy.html",
-      "keywords": ["ナンプレ", "回転パズル", "数字合わせ", "高難易度パズル", "頭脳ゲーム", "暇つぶしアプリ"]
+      "keywords": ["ナンプレ", "回転パズル", "数字合わせ", "高難易度パズル", "ゲーム", "暇つぶしアプリ"]
     },
     {
       "id": "airblowsim",
       "name": "Air Blow Simulator（エアブローシミュレーター）",
       "package": "com.ezcompany.airblow_sim",
-      "category": "ツール",
+      "category": "業務効率化",
       "shortDescription": "配管設計から流量・圧力損失・衝撃圧力まで計算できるエアブロー配管のエンジニアリングシミュレーター。",
       "description": [
         "エアブローシミュレーターは、圧縮空気ブローノズル配管システムの設計、流量、圧力損失、衝撃圧力の計算を行うためのエンジニアリングシミュレーションツールです。レギュレーター・分岐管・パイプ・チューブ・制御弁・ノズルを自由に組み合わせて配管システムを設計でき、複数ノズルを備えたシステムにも対応しています。",
@@ -429,7 +429,7 @@
       "id": "growthlapse",
       "name": "タイムラプス成長記録撮影カメラ",
       "package": "com.ezcompany.growthlapse",
-      "category": "写真",
+      "category": "ツール",
       "shortDescription": "同じアングルで撮り続けて「変化の過程」を記録・可視化するタイムラプス撮影カメラアプリ。",
       "description": [
         "「タイムラプス成長記録撮影カメラ」は、同じアングルで撮り続けることで「変化の過程」を記録・可視化できるカメラアプリです。撮影時に前回の写真を半透明で重ねて表示するので、アングルを合わせてブレのない記録が撮れます。透明度はスライダーでいつでも調整可能です。",
@@ -455,6 +455,36 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.growthlapse",
       "privacyUrl": "https://ezsugiura.github.io/Apps/growthlapse_privacy_policy.html",
       "keywords": ["タイムラプスカメラ", "成長記録アプリ", "子供の成長記録", "定点観測カメラ", "植物観察記録", "ペット記録アプリ", "半透明重ね撮影", "タイムラプス動画作成", "ローカル保存カメラ"]
+    },
+    {
+      "id": "pumpsim",
+      "name": "ポンプ配管シミュレーター",
+      "package": "com.ezcompany.pump_sim",
+      "category": "業務効率化",
+      "shortDescription": "配管ルートから全揚程・圧力損失・NPSH・消費電力を一括計算する水力計算シミュレーター。",
+      "description": [
+        "『ポンプ配管シミュレーター』は、水処理プラントや各種産業設備の配管設計・ポンプ選定に必要な水力計算を手軽に行えるエンジニアリングシミュレーションアプリです。管径・配管長・継手・弁類を組み合わせた配管ルートを設定し、要求流量を入力するだけで、全揚程（TDH）や管路の圧力損失を瞬時に算定します。",
+        "流体物性（温度・密度・粘度）に応じたレイノルズ数や摩擦係数の自動計算はもちろん、キャビテーション防止に欠かせない有効吸込ヘッド（NPSHa）の確認、目標仕様に対する必要軸動力・電気代の試算にも対応。工場の設備保全、配管の省エネ診断、プラント設計者の現場検討ツールとして活用いただけます。"
+      ],
+      "features": [
+        "直管長・継手・弁類を組み合せた配管ルートの損失計算",
+        "流量・管径から直管損失・局所損失・全揚程（TDH）を自動計算",
+        "キャビテーション判定に使える有効吸込ヘッド（NPSHa）算出",
+        "水温変化に伴う密度・粘度・飽和蒸気圧の物性自動追従",
+        "ポンプ軸動力および概算消費電力の試算機能",
+        "作成した配管モデルデータの端末内保存・呼び出し"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/placeholder-icon-pumpsim=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/placeholder-ss1=w1024-h576",
+        "https://play-lh.googleusercontent.com/placeholder-ss2=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-08-11",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.pump_sim",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/pump_sim_privacy_policy.html",
+      "keywords": ["ポンプシミュレーター","配管設計","水力計算","全揚程計算","圧力損失","NPSH計算","キャビテーション","プラント設計","設備保全","エンジニアリングツール"]
     }
   ]
 }
