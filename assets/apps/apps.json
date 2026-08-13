@@ -487,6 +487,66 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.pump_sim",
       "privacyUrl": "https://ezsugiura.github.io/Apps/pump_sim_privacy_policy.html",
       "keywords": ["ポンプシミュレーター","配管設計","水力計算","全揚程計算","圧力損失","NPSH計算","キャビテーション","プラント設計","設備保全","エンジニアリングツール"]
+    },
+    {
+      "id": "cleanupalarm",
+      "name": "お片付けできたね",
+      "package": "com.ezcompany.cleanupalarm",
+      "category": "ライフスタイル",
+      "shortDescription": "親に代わって「片付け」をアラームが伝えてくれる。AIが写真で判定し、できたらキャラが育つ！親子で使える習慣化アプリ。",
+      "description": [
+        "「片付けなさい」のバトルを、この1本で。",
+        "このアプリは、アラームを止めるために片付けたお部屋の写真を撮ってもらう、ちょっと変わった生活習慣改善アラームアプリです。",
+        "写真は独自のAIが自動でチェックするので、「ちゃんと片付いたか」を大人が毎回確認しなくても大丈夫。",
+        "片付けができたら、餌がもらえて、餌を与える事で、かわいいひよこキャラクターが少しずつ育っていきます。",
+        "■ こんなご家庭におすすめ",
+        "・毎日の「片付けて」の声かけに疲れてしまった",
+        "・子どもが自分から進んで片付けをする習慣を身につけてほしい",
+        "・アプリの安全性や、写真・個人情報の扱いが気になる",
+        "■ 使い方はかんたん3ステップ",
+        "1. アラームを設定し、片付けてほしい場所を登録",
+        "2. アラームが鳴ったら、その場所を片付けて写真を撮影",
+        "3. AIが自動で片付き具合を判定。きれいになっていればアラーム解除!",
+        "",
+        "■ 適当な写真では解除できません",
+        "撮影した写真は、あらかじめ登録した「お手本の写真」とAIが照らし合わせ、どのくらいきれいになったかをその場で判定します。",
+        "写真を撮っただけでは解除できない仕組みなので、なんとなくのごまかしがきかず、きちんと最後まで片付ける力が身につきます。",
+        "",
+        "■ 片付けるほど、キャラクターが育つ",
+        "判定に成功するとエサ(ポイント)がもらえ、育成中のひよこにあげることで少しずつ成長します。",
+        "がんばった分だけ、背景フレームや見た目のアイテムも増えていくので、お片付けそのものが楽しみに変わります。",
+        "ゲームらしい派手な演出は控えめに、片付けと成長がまっすぐ結びつくシンプルな仕組みにしています。",
+        "",
+        "■ 保護者の方も安心の設計",
+        "・アラームの設定変更や解除には、保護者が設定したPINの入力が必要なので、お子さまが勝手に操作することを防げます。",
+        "・撮影した写真の判定は、すべて端末内で処理しています。写真がインターネット経由で外部サーバーに送信されることはありません。",
+        "・会員登録やログインは不要。氏名やメールアドレスなどの個人情報の入力を求めることもありません。",
+        "",
+        "",
+        "毎日の「片付けなさい」を、親子ゲンカのタネから、ちょっと楽しい習慣に。",
+        "今日からを試してみませんか？"
+      ],
+      "features": [
+        "・写真判定つき目覚ましアラーム(繰り返し・曜日指定に対応)",
+        "・オンデバイスAIによる片付き具合の自動判定",
+        "・お片付けで貯まるポイントによるキャラクター育成",
+        "・フレーム・アイテムなどの見た目カスタマイズ",
+        "・保護者用PINロックによる誤操作防止"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/WMfkC0qKHO608jl1hX4qze-D3e6H9qcTqPLVlzT_MHlV_9W87oCZY6Z3xuitV1_mPXlUq4PZkeDJ77ZRWrNQmw=w240-h480-rw",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/HoOeT-OF-aWFiKGDa27ObQi_n2s1Ao4Gxs_J8pPhTREzGh5CXu0PXYybsnE5lUl6h2hrxllL_lxvRo9ItxSn=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/sgJze5BVdfC1KZVFCx9BRPV5OZfleqULFdz9Hv8LFlSdvzXJBV596LB7YvB28arR1VMV9iuqLsCSEK-FhdTpKw=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/Hoss-nBRy5xGst1shQvPWM1duS9e839V_aEx9GA5eIhwwTPgCoQDwkd8rXNIH2JTCn2O9j11koU1RTY_lRxBmQ=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/mKEoEZOkGFpSJzbn1DohdcJWV15zSC2wXvCWqabw1cPCvJ3obbLooDE_WOwBT1IVQ7ei3I2ZM3fAHjM49p4NZ_U=w2560-h1440-rw"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-08-13",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.cleanupalarm",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/cleanupalarm_policy.html",
+      "keywords": ["お片付け","しつけ","アラーム","mobileSAM","nanoSAM","AI画像判定","育成システム","無課金"]
     }
+    
   ]
 }
