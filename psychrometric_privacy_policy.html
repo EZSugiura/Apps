@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Psychrometric Chart</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #0b5fff;
+    --border: #e2e2e2;
+    --card: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #eaeaea;
+      --muted: #a8a8a8;
+      --accent: #6ea8ff;
+      --border: #2c2c2c;
+      --card: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  h1 { font-size: 1.5rem; margin: 0; }
+  .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 32px; }
+  .lang-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lang-toggle button {
+    border: none;
+    background: transparent;
+    color: var(--fg);
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .lang-toggle button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #fff;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 2.2em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3em;
+  }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 0.5em; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--muted); font-weight: 600; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 1em 0;
+  }
+  a { color: var(--accent); }
+  [data-lang-block] { display: none; }
+  [data-lang-block].active { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="page-title">Privacy Policy</h1>
+    <div class="lang-toggle" role="tablist" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+    </div>
+  </header>
+  <p class="updated" id="updated-label">Effective date: 2026-08-19</p>
+
+  <div data-lang-block data-lang="en" class="active">
+    <p>
+      This Privacy Policy explains what information the app <strong>Psychrometric Chart</strong>
+      (Android package <code>psychrometricchart.EZCompany</code>) collects, how it is used, and
+      the choices available to you. The app is developed and published by an individual developer
+      ("we", "us").
+    </p>
+
+    <h2>Summary</h2>
+    <div class="card">
+      <ul>
+        <li>If you tap "Use current location" in the paid HVAC weather-simulation feature, the app requests your device's approximate (coarse) location once, to look up your time zone and pre-fill coordinates for the weather lookup. Outside of that button, the app never accesses device location.</li>
+        <li>Your saved chart points and settings are stored only on your device.</li>
+        <li>Advertising (Google AdMob) and basic usage analytics (Firebase Analytics) are used to support the free version.</li>
+        <li>If you use the optional "Contact Us" form, the message and the information you choose to provide are sent to us via Firebase Cloud Firestore.</li>
+        <li>If you purchase a subscription, the purchase itself is processed entirely by Google Play; we only read your subscription status from Google Play.</li>
+      </ul>
+    </div>
+
+    <h2>Information We Collect</h2>
+    <table>
+      <tr><th>Category</th><th>Details</th></tr>
+      <tr>
+        <td>Device/location data</td>
+        <td>Requested only when you tap "Use current location" in the paid HVAC
+          weather-simulation feature (approximate/coarse location permission). The position
+          obtained is used on-device to find the nearest reference city for your time zone, and —
+          like any coordinates you enter or select manually — is sent to NASA POWER (see
+          Third-Party Services below) to fetch weather data. It is not stored or otherwise
+          collected by us.</td>
+      </tr>
+      <tr>
+        <td>Advertising data</td>
+        <td>Banner, app-open, and rewarded ads are served through Google AdMob (<code>google_mobile_ads</code>).
+          AdMob may collect advertising identifiers and interaction data to serve and measure ads.
+          In the EEA, UK, Switzerland, and applicable US states, we show Google's User Messaging
+          Platform (UMP) consent form before requesting ads.</td>
+      </tr>
+      <tr>
+        <td>Usage analytics</td>
+        <td>We use Firebase Analytics to understand feature usage in aggregate. This does not
+          include the contents of your saved data or chart points.</td>
+      </tr>
+      <tr>
+        <td>Contact form submissions</td>
+        <td>If you use the in-app "Contact Us" form, we receive the category, your message, the
+          app version/platform/language, and any name or reply email address you choose to enter
+          (both optional). This is stored in Firebase Cloud Firestore and used only to respond to
+          you and improve the app.</td>
+      </tr>
+      <tr>
+        <td>Purchases / subscriptions</td>
+        <td>Subscription purchases are handled entirely by Google Play Billing. We do not operate
+          our own payment servers and do not see your payment details. The app reads your
+          subscription status from Google Play to unlock the ad-free experience and, in the
+          future, paid features.</td>
+      </tr>
+      <tr>
+        <td>Locally saved data</td>
+        <td>Chart points, unit system, language, and display preferences are stored only on your
+          device and are not transmitted to us.</td>
+      </tr>
+    </table>
+
+    <h2>Third-Party Services</h2>
+    <ul>
+      <li><strong>Google AdMob</strong> — advertising. See
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from sites/apps that use its services</a>.</li>
+      <li><strong>Firebase (Google)</strong> — Analytics and Cloud Firestore (contact form storage).
+        See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase and privacy</a>.</li>
+      <li><strong>Google Play Billing</strong> — subscription purchases.</li>
+    </ul>
+    <p>
+      The app's optional paid feature fetches historical weather data for a location you
+      choose — by searching a city, entering coordinates manually, or tapping "Use current
+      location" — from
+      <a href="https://power.larc.nasa.gov/" target="_blank" rel="noopener">NASA POWER</a>. In
+      all three cases, the latitude/longitude (your device's actual GPS position only in the
+      "Use current location" case) is sent to NASA's public API to retrieve weather data.
+    </p>
+
+    <h2>Your Choices</h2>
+    <ul>
+      <li>You can manage ad personalization consent from the app's Settings screen
+        ("Privacy Options"), where available for your region.</li>
+      <li>You can manage or cancel your subscription at any time from
+        <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play &gt; Subscriptions</a>.</li>
+      <li>Since we do not maintain user accounts, there is no separate account-deletion process.
+        Uninstalling the app removes all data stored on your device. To request deletion of a
+        contact-form submission you previously sent us, please contact us using the information
+        below.</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>This app is not directed at children under 13, and we do not knowingly collect personal
+      information from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy as the app's features change. Material changes will be reflected
+      by updating the effective date at the top of this page.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this policy or your data, please use the in-app <strong>Menu &gt;
+      Settings &gt; Contact Us</strong> form.</p>
+  </div>
+
+  <div data-lang-block data-lang="ja">
+    <p>
+      本プライバシーポリシーは、アプリ「<strong>湿り空気線図(Psychrometric Chart)</strong>」
+      (Androidパッケージ名: <code>psychrometricchart.EZCompany</code>)が取得する情報、その利用目的、
+      利用者が行える選択について説明するものです。本アプリは個人開発者(以下「当方」)が開発・
+      提供しています。
+    </p>
+
+    <h2>概要</h2>
+    <div class="card">
+      <ul>
+        <li>有償の空調シミュレーション機能で「現在地から取得」ボタンを押した時のみ、端末のおおよその位置情報を一度取得し、タイムゾーンの特定と気象データ取得用の座標入力に使います。このボタンを使わない限り、端末の位置情報にはアクセスしません。</li>
+        <li>保存したポイントや各種設定は端末内にのみ保存されます。</li>
+        <li>無料版の運営のため、広告(Google AdMob)と簡易な利用状況分析(Firebase Analytics)を利用しています。</li>
+        <li>アプリ内の「お問い合わせ」フォームを利用した場合、入力内容はFirebase Cloud Firestoreを通じて当方へ送信されます。</li>
+        <li>サブスクリプションを購入した場合、決済処理自体はGoogle Playが行い、当方はGoogle Playから購読状態のみを取得します。</li>
+      </ul>
+    </div>
+
+    <h2>取得する情報</h2>
+    <table>
+      <tr><th>区分</th><th>詳細</th></tr>
+      <tr>
+        <td>端末の位置情報</td>
+        <td>有償の空調シミュレーション機能で「現在地から取得」を押した時のみ取得します
+          (おおよその位置情報の権限)。取得した位置は、端末内でタイムゾーン特定用の最寄り
+          都市を探すために使われ、手入力・都市選択した座標と同様にNASA POWER(下記
+          「第三者サービス」参照)へ気象データ取得のため送信されます。当方が保存・収集する
+          ことはありません。</td>
+      </tr>
+      <tr>
+        <td>広告関連データ</td>
+        <td>バナー・アプリ起動時・リワード広告はGoogle AdMob(<code>google_mobile_ads</code>)経由で
+          配信されます。AdMobは広告の配信・効果測定のため広告IDや操作データを取得する場合が
+          あります。EEA・英国・スイス、および対象となる米国州では、広告リクエスト前にGoogleの
+          User Messaging Platform(UMP)による同意フォームを表示します。</td>
+      </tr>
+      <tr>
+        <td>利用状況の分析</td>
+        <td>Firebase Analyticsにより、機能の利用状況を集計的に把握しています。保存データや
+          ポイントの内容自体は含まれません。</td>
+      </tr>
+      <tr>
+        <td>お問い合わせフォームの内容</td>
+        <td>アプリ内の「お問い合わせ」フォームを利用した場合、種別・本文・アプリバージョン/
+          プラットフォーム/言語、および任意入力のお名前・返信用メールアドレスを受け取ります。
+          Firebase Cloud Firestoreに保存され、返信とアプリ改善のみに利用します。</td>
+      </tr>
+      <tr>
+        <td>購入・サブスクリプション</td>
+        <td>サブスクリプションの購入処理はGoogle Play Billingが全て行います。当方は独自の決済
+          サーバーを持たず、決済情報自体を確認することはできません。アプリは広告非表示および
+          将来の有償機能を有効化するため、Google Playから購読状態のみを読み取ります。</td>
+      </tr>
+      <tr>
+        <td>端末内保存データ</td>
+        <td>ポイント・単位系・表示言語・表示設定は端末内にのみ保存され、当方へ送信されません。</td>
+      </tr>
+    </table>
+
+    <h2>第三者サービス</h2>
+    <ul>
+      <li><strong>Google AdMob</strong> — 広告配信。詳細は
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Googleパートナー向けポリシー</a>をご覧ください。</li>
+      <li><strong>Firebase(Google)</strong> — Analyticsおよび Cloud Firestore(お問い合わせ内容の保存)。
+        詳細は<a href="https://firebase.google.com/support/privacy?hl=ja" target="_blank" rel="noopener">Firebaseとプライバシー</a>をご覧ください。</li>
+      <li><strong>Google Play Billing</strong> — サブスクリプションの購入処理。</li>
+    </ul>
+    <p>
+      有償のオプション機能では、都市検索・緯度経度の手入力・「現在地から取得」のいずれかで
+      選んだ地点の過去の気象データを、
+      <a href="https://power.larc.nasa.gov/" target="_blank" rel="noopener">NASA POWER</a>から
+      取得します。いずれの場合も、選択した緯度経度(「現在地から取得」の場合のみ端末の実際の
+      GPS位置情報)がNASAの公開APIへ送信されます。
+    </p>
+
+    <h2>利用者が行える選択</h2>
+    <ul>
+      <li>対象地域では、アプリの設定画面(「プライバシーオプション」)から広告のパーソナライズに
+        関する同意設定を変更できます。</li>
+      <li>サブスクリプションの管理・解約は、いつでも
+        <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play &gt; 定期購入</a>から行えます。</li>
+      <li>当方はユーザーアカウントを保持していないため、個別のアカウント削除手続きはありません。
+        アプリをアンインストールすると端末内のデータは全て削除されます。過去に送信いただいた
+        お問い合わせ内容の削除をご希望の場合は、下記の方法でご連絡ください。</li>
+    </ul>
+
+    <h2>お子様のプライバシーについて</h2>
+    <p>本アプリは13歳未満のお子様を対象としておらず、故意にお子様の個人情報を取得することはありません。</p>
+
+    <h2>本ポリシーの変更</h2>
+    <p>アプリの機能追加・変更に応じて本ポリシーを更新することがあります。重要な変更がある場合は、
+      ページ上部の施行日を更新してお知らせします。</p>
+
+    <h2>お問い合わせ</h2>
+    <p>本ポリシーやお客様の情報についてのご質問は、アプリ内の<strong>メニュー &gt; 設定 &gt;
+      お問い合わせ</strong>フォームをご利用ください。</p>
+  </div>
+</main>
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang-toggle button');
+    var blocks = document.querySelectorAll('[data-lang-block]');
+    var titleEl = document.getElementById('page-title');
+    var updatedEl = document.getElementById('updated-label');
+    var titles = { en: 'Privacy Policy', ja: 'プライバシーポリシー' };
+    var updated = { en: 'Effective date: 2026-08-19', ja: '施行日: 2026-08-19' };
+
+    function setLang(lang) {
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+      blocks.forEach(function (el) { el.classList.toggle('active', el.dataset.lang === lang); });
+      document.documentElement.lang = lang;
+      titleEl.textContent = titles[lang];
+      updatedEl.textContent = updated[lang];
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { setLang(b.dataset.lang); });
+    });
+  })();
+</script>
+</body>
+</html>
