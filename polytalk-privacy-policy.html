@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>PolyTalk（多言語同時翻訳）プライバシーポリシー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", Arial, sans-serif;
+    line-height: 1.8;
+    color: #222;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    background: #fff;
+  }
+  h1 { font-size: 1.6em; border-bottom: 3px solid #3956A0; padding-bottom: 12px; }
+  h2 { font-size: 1.2em; color: #3956A0; margin-top: 2.2em; }
+  p, li { font-size: 0.98em; }
+  .updated { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; font-size: 0.92em; vertical-align: top; }
+  th { background: #f3f5fb; }
+  a { color: #3956A0; }
+  footer { margin-top: 3em; color: #888; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 1em; }
+</style>
+</head>
+<body>
+
+<h1>PolyTalk（多言語同時翻訳）プライバシーポリシー</h1>
+<p class="updated">最終更新日: 2026年8月22日</p>
+
+<p>
+本プライバシーポリシーは、ezcompany（以下「開発者」）が提供するAndroidアプリケーション「PolyTalk（日本語名: 多言語同時翻訳）」（以下「本アプリ」）における、利用者情報の取り扱いについて説明するものです。
+</p>
+
+<h2>1. 取得する情報と利用目的</h2>
+
+<h3>1-1. 音声データ（音声入力機能）</h3>
+<p>
+本アプリの音声入力機能は、お使いの端末にインストールされているGoogleの音声認識サービスを利用します。発話内容は、音声をテキストに変換する目的でGoogleのサーバーへ送信される場合があります。この処理は開発者ではなくGoogleによって行われ、開発者が発話内容を取得・保存することはありません。音声入力を使用せず、テキスト入力のみで本アプリをご利用いただくことも可能です。
+</p>
+
+<h3>1-2. 翻訳データ</h3>
+<p>
+本アプリの翻訳機能はGoogle ML Kitのオンデバイス翻訳を使用しており、入力されたテキストは端末内で翻訳処理されます。ただし、翻訳に必要な言語モデルデータは初回利用時などにインターネット経由でダウンロードされます。
+</p>
+
+<h3>1-3. 会話履歴・設定情報</h3>
+<p>
+会話履歴（発言内容・翻訳結果）や、登録言語・表示設定などのアプリ設定は、すべて端末内（ローカルストレージ）にのみ保存されます。開発者が運営するサーバーへ送信・保存されることはありません。会話履歴はアプリ内の操作でいつでも削除できます。CSV書き出し機能を利用した場合、出力先は利用者が選択した端末内の保存場所となります。
+</p>
+
+<h3>1-4. 広告に関する情報</h3>
+<p>
+本アプリはGoogle AdMobを利用して広告を配信しています。広告配信にあたり、広告識別子（Advertising ID）、端末情報、おおよその位置情報、アプリの利用状況等の情報が、Google および提携する広告配信事業者によって取得される場合があります。これらの情報は、広告の表示・効果測定・不正防止等の目的で利用されます。
+</p>
+<p>
+EU/EEA・英国・スイスおよびその他同意取得が必要な地域のご利用者に対しては、Googleが提供するUser Messaging Platform（UMP）を通じて、広告配信前に同意確認画面を表示します。
+</p>
+<p>
+Google のデータ取り扱いについては、以下をご参照ください。
+</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google パートナーサイトにおけるデータ利用について</a></li>
+</ul>
+
+<h2>2. 第三者への情報提供</h2>
+<p>
+開発者は、法令に基づく場合を除き、取得した情報を利用者の同意なく第三者へ提供することはありません。ただし、上記1-1・1-2・1-4に記載の通り、音声認識・翻訳モデル配信・広告配信のためにGoogle等の外部サービスを利用しており、これらのサービス事業者に対して技術的に必要な範囲で情報が送信される場合があります。</p>
+
+<h2>3. 利用する主な外部サービス（SDK）</h2>
+<table>
+  <tr><th>サービス</th><th>用途</th></tr>
+  <tr><td>Google ML Kit（Translation）</td><td>オンデバイス翻訳・言語モデルのダウンロード</td></tr>
+  <tr><td>Android SpeechRecognizer（Google音声認識）</td><td>音声入力のテキスト変換</td></tr>
+  <tr><td>Android TextToSpeech</td><td>翻訳結果の音声読み上げ（端末内処理）</td></tr>
+  <tr><td>Google AdMob</td><td>広告配信</td></tr>
+  <tr><td>Google User Messaging Platform（UMP）</td><td>広告配信に関する同意取得</td></tr>
+</table>
+
+<h2>4. アカウント登録について</h2>
+<p>本アプリはアカウント登録・ログイン機能を必要としません。氏名・メールアドレス等の個人を特定する情報を開発者が直接収集することはありません。</p>
+
+<h2>5. お子様のご利用について</h2>
+<p>本アプリは13歳未満のお子様を主な対象としたアプリではありません。13歳未満のお子様が本アプリをご利用になる場合は、保護者の同意・監督のもとでご利用ください。</p>
+
+<h2>6. 情報の削除</h2>
+<p>本アプリをアンインストールすると、端末内に保存された会話履歴・設定情報はすべて削除されます。また、設定画面から「全履歴を削除」を実行することで、いつでも会話履歴を削除できます。広告識別子のリセット・広告のパーソナライズ設定については、お使いの端末のOS設定から変更できます。</p>
+
+<h2>7. 本ポリシーの変更</h2>
+<p>本プライバシーポリシーの内容は、法令の改正やサービス内容の変更等に応じて、予告なく変更される場合があります。重要な変更がある場合は、本ページ上でお知らせします。</p>
+
+<h2>8. お問い合わせ</h2>
+<p>本プライバシーポリシーに関するお問い合わせは、下記のメールアドレスまでご連絡ください。</p>
+<p>Email: <a href="mailto:eizosugiura@gmail.com">eizosugiura@gmail.com</a></p>
+
+<footer>
+&copy; ezcompany. All rights reserved.
+</footer>
+
+</body>
+</html>
