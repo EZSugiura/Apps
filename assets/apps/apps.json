@@ -577,6 +577,36 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.graphdigid",
       "privacyUrl": "https://ezsugiura.github.io/Apps/graphdigid_privacypolicy.html",
       "keywords": ["グラフ読み取り", "グラフデジタイズ", "グラフ数値化", "CSV変換", "棒グラフ読み取り", "折れ線グラフ読み取り", "論文データ抽出", "画像から数値化"]
+    },
+    {
+      "id": "nekopunch",
+      "name": "ネコパンチ",
+      "package": "com.nekogames.nekopunch",
+      "category": "ゲーム",
+      "shortDescription": "猫じゃらしでネコの狩猟本能を刺激し、飛びかかる直前をすんでのところでかわす反射神経ゲーム。",
+      "description": [
+        "画面の猫じゃらしを指でドラッグして動かすだけのシンプル操作。ネコの注目度（興奮度）が上がるほど飛びかかってくる可能性が高まり、警告が出たら判定サークルの外へ素早くかわす緊張感たっぷりの反射神経ゲームです。",
+        "回避に成功するたびにコンボが加算されてスコアがアップしますが、コンボが伸びるほど反応できる時間は短くなりシビアに。ライフは3つで、1プレイ30秒〜90秒ほどとすきま時間にもぴったりです。"
+      ],
+      "features": [
+        "猫じゃらしをドラッグするだけのシンプル操作",
+        "警告演出のタイミングを見極めて回避",
+        "コンボでスコア加算、伸びるほど高難度に",
+        "ライフ制のハイスコアアタック",
+        "1プレイ30秒〜90秒の隙間時間ミニゲーム"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/NYeq7AvVbYPwhJ-RDpl_gLySU-xi0vOFeOH1Q-GsJRlOUVeixzjJ229U48zz4vxGDMThsW8XTODgCzDEH8GR=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/3-hxNb1HGoyM21TgMUam-w6zGAhUO0SvoRhQMF2gLjOXFyPxnQ_PCcVZwOr1bBPrLntCydZL9G7C5v84OW-KebM=w1024-h576",
+        "https://play-lh.googleusercontent.com/LNyoD1FPxcc_Mxiu82IWC-N01aaGxSt7xAndFiL1YcuEb1clQS0YUFueVlFwLZYphV-b7oI_IjV5F0clZTjiKw=w1024-h576",
+        "https://play-lh.googleusercontent.com/SvacAa3LXQsPAX3ToJb6VIdGbM-ptUdKraVnO-rwiM1TpGQUV3Ho8voe4v5MFnmYDCqBjNAJ4HTwvdhonSpErVg=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-08-13",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.nekogames.nekopunch",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/nekopanch_index.html",
+      "keywords": ["ネコパンチ", "反射神経ゲーム", "猫じゃらし", "ミニゲーム", "反応速度ゲーム", "隙間時間ゲーム", "猫ゲーム", "無料ゲーム"]
     }
   ]
 }
