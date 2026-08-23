@@ -546,7 +546,37 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.cleanupalarm",
       "privacyUrl": "https://ezsugiura.github.io/Apps/cleanupalarm_policy.html",
       "keywords": ["お片付け","しつけ","アラーム","mobileSAM","nanoSAM","AI画像判定","育成システム","無課金"]
+    },
+    {
+      "id": "graphdigid",
+      "name": "グラフスキャン",
+      "package": "com.ezcompany.graphdigid",
+      "category": "ツール",
+      "shortDescription": "写真の棒グラフ・折れ線グラフを数値表に変換。CSV出力にも対応。",
+      "description": [
+        "グラフの写真を撮るだけで、数値データに変換できるアプリです。棒グラフ・折れ線グラフに対応しており、紙面だけでなくパソコンやスマホの画面に表示されたグラフからも読み取ることができます。複数の系列（色分けされた棒や線）が含まれるグラフにも対応しています。",
+        "読み取った数値は表形式で確認・編集でき、そのままCSVファイルとして書き出せます。編集した数値を再度グラフとして表示することも可能です。論文や資料、SNSで見かけたグラフから元の数値を知りたいときに便利です。"
+      ],
+      "features": [
+        "棒グラフ・折れ線グラフの読み取りに対応",
+        "紙面のほか、パソコン・スマホ画面のグラフも読み取り可能",
+        "複数系列（色分けされた棒や線）を含むグラフに対応",
+        "読み取った数値を表形式で確認・編集",
+        "編集した数値をCSV出力・グラフ再表示"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/JkZqhBhNbSMugF8dduNrxw6NhB1Bkp6-3u64zYEgwPHhgcGOR1w6AZSxIAJm6mQfZOHB98MxXRKmT7iVeJu6DZk=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/HILcsSFd63DopwJaK8pWLjPSzEyVlI66Nq-U2mK9IRf0d9lLYM_nlROepxbDgbVisurom1X4i6qEGgvqZOFOnA=w1024-h576",
+        "https://play-lh.googleusercontent.com/LrKUjpA2-5TBjUna7dciABL9lGpzy9HYoGhPfy0q2v-_oYIvF5Rtav-PW9cQ2L8hU4qoydL3KsNJ1PADvl3B=w1024-h576",
+        "https://play-lh.googleusercontent.com/myip7E8UTS-CgeaIYVLBJu8XrdgAhuVN0rg-XX0Gv5gAZKpjus-gp2yNEP0TU-tjS1X-W6CYTncB4eL7AkMR29k=w1024-h576",
+        "https://play-lh.googleusercontent.com/yh8euPiyOZEre4K1mhpJqCxPAOP32BSpoJ5VDKE50VWZNhrAA1Lc0Y7MGflD122xU1NRzQWNJx2e2hK2ZFeBQHA=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "0+",
+      "updated": "2026-08-21",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.graphdigid",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/graphdigid_privacypolicy.html",
+      "keywords": ["グラフ読み取り", "グラフデジタイズ", "グラフ数値化", "CSV変換", "棒グラフ読み取り", "折れ線グラフ読み取り", "論文データ抽出", "画像から数値化"]
     }
-    
   ]
 }
