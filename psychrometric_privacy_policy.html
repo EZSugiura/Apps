@@ -108,24 +108,27 @@
       <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
     </div>
   </header>
-  <p class="updated" id="updated-label">Effective date: 2026-08-19</p>
+  <p class="updated" id="updated-label">Effective date: 2026-08-30</p>
 
   <div data-lang-block data-lang="en" class="active">
     <p>
       This Privacy Policy explains what information the app <strong>Psychrometric Chart</strong>
-      (Android package <code>psychrometricchart.EZCompany</code>) collects, how it is used, and
-      the choices available to you. The app is developed and published by an individual developer
-      ("we", "us").
+      (Android package <code>psychrometricchart.EZCompany</code>) and its companion Web version
+      (a browser-based version of the app for Pro users, available at
+      <code>psychrometric-chart-bdf76.web.app</code>) collect, how it is used, and the choices
+      available to you. The app and Web version are developed and published by an individual
+      developer ("we", "us").
     </p>
 
     <h2>Summary</h2>
     <div class="card">
       <ul>
         <li>If you tap "Use current location" in the paid HVAC weather-simulation feature, the app requests your device's approximate (coarse) location once, to look up your time zone and pre-fill coordinates for the weather lookup. Outside of that button, the app never accesses device location.</li>
-        <li>Your saved chart points and settings are stored only on your device.</li>
-        <li>Advertising (Google AdMob) and basic usage analytics (Firebase Analytics) are used to support the free version.</li>
+        <li>Your saved chart points and settings are stored only on your device (or, for the Web version, only in your browser).</li>
+        <li>Advertising (Google AdMob) and basic usage analytics (Firebase Analytics) are used to support the free Android version. The Web version shows no ads.</li>
         <li>If you use the optional "Contact Us" form, the message and the information you choose to provide are sent to us via Firebase Cloud Firestore.</li>
-        <li>If you purchase a subscription, the purchase itself is processed entirely by Google Play; we only read your subscription status from Google Play.</li>
+        <li>If you purchase Pro (subscription or one-time purchase), the purchase itself is processed entirely by Google Play; we only read your entitlement status from Google Play.</li>
+        <li>If you sign in with Google (from Settings, or to use the Web version), we receive your Google account's email address, display name, and account identifier, and store a record of your Pro entitlement status linked to that identifier so the same purchase can unlock both the Android app and the Web version.</li>
       </ul>
     </div>
 
@@ -162,15 +165,32 @@
       </tr>
       <tr>
         <td>Purchases / subscriptions</td>
-        <td>Subscription purchases are handled entirely by Google Play Billing. We do not operate
-          our own payment servers and do not see your payment details. The app reads your
-          subscription status from Google Play to unlock the ad-free experience and, in the
-          future, paid features.</td>
+        <td>Subscription and one-time (lifetime) Pro purchases are handled entirely by Google Play
+          Billing. We do not operate our own payment servers and do not see your payment details.
+          The app reads your entitlement status from Google Play to unlock the ad-free experience
+          and paid features.</td>
+      </tr>
+      <tr>
+        <td>Google Sign-In</td>
+        <td>If you sign in with Google — from the Android app's Settings screen, or when using the
+          Web version — we receive your Google account's email address, display name, and account
+          identifier via Firebase Authentication. This is used only to identify which account you
+          are using; we do not use it for advertising or any other purpose.</td>
+      </tr>
+      <tr>
+        <td>Pro entitlement sync (Android ⇄ Web)</td>
+        <td>If you purchase Pro on Android and sign in with Google, we store a record — linked to
+          your Google account identifier — in Firebase Cloud Firestore indicating that your
+          account has an active Pro entitlement, along with the product/purchase type and update
+          timestamp. This record does not contain your chart data, saved points, or payment
+          details. It exists solely so the same Pro purchase can unlock the Web version when you
+          sign in there with the same Google account.</td>
       </tr>
       <tr>
         <td>Locally saved data</td>
         <td>Chart points, unit system, language, and display preferences are stored only on your
-          device and are not transmitted to us.</td>
+          device (or, for the Web version, only in your browser's local storage) and are not
+          transmitted to us.</td>
       </tr>
     </table>
 
@@ -178,9 +198,10 @@
     <ul>
       <li><strong>Google AdMob</strong> — advertising. See
         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from sites/apps that use its services</a>.</li>
-      <li><strong>Firebase (Google)</strong> — Analytics and Cloud Firestore (contact form storage).
-        See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase and privacy</a>.</li>
-      <li><strong>Google Play Billing</strong> — subscription purchases.</li>
+      <li><strong>Firebase (Google)</strong> — Authentication (Google Sign-In), Analytics, and
+        Cloud Firestore (contact form storage and Pro entitlement sync). See
+        <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase and privacy</a>.</li>
+      <li><strong>Google Play Billing</strong> — subscription and one-time Pro purchases.</li>
     </ul>
     <p>
       The app's optional paid feature fetches historical weather data for a location you
@@ -197,10 +218,12 @@
         ("Privacy Options"), where available for your region.</li>
       <li>You can manage or cancel your subscription at any time from
         <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play &gt; Subscriptions</a>.</li>
-      <li>Since we do not maintain user accounts, there is no separate account-deletion process.
-        Uninstalling the app removes all data stored on your device. To request deletion of a
-        contact-form submission you previously sent us, please contact us using the information
-        below.</li>
+      <li>You can sign out of your Google account at any time from the app's Settings screen
+        ("Account" section). This stops the Pro entitlement sync described above; it does not
+        affect your Android purchase itself.</li>
+      <li>Uninstalling the app removes all data stored on your device. To request deletion of the
+        Pro entitlement record linked to your Google account, or of a contact-form submission you
+        previously sent us, please contact us using the information below.</li>
     </ul>
 
     <h2>Children's Privacy</h2>
@@ -219,19 +242,21 @@
   <div data-lang-block data-lang="ja">
     <p>
       本プライバシーポリシーは、アプリ「<strong>湿り空気線図(Psychrometric Chart)</strong>」
-      (Androidパッケージ名: <code>psychrometricchart.EZCompany</code>)が取得する情報、その利用目的、
-      利用者が行える選択について説明するものです。本アプリは個人開発者(以下「当方」)が開発・
-      提供しています。
+      (Androidパッケージ名: <code>psychrometricchart.EZCompany</code>)、および付随するWeb版
+      (Pro版ユーザー向けのブラウザ版、<code>psychrometric-chart-bdf76.web.app</code>で提供)が
+      取得する情報、その利用目的、利用者が行える選択について説明するものです。本アプリおよび
+      Web版は個人開発者(以下「当方」)が開発・提供しています。
     </p>
 
     <h2>概要</h2>
     <div class="card">
       <ul>
         <li>有償の空調シミュレーション機能で「現在地から取得」ボタンを押した時のみ、端末のおおよその位置情報を一度取得し、タイムゾーンの特定と気象データ取得用の座標入力に使います。このボタンを使わない限り、端末の位置情報にはアクセスしません。</li>
-        <li>保存したポイントや各種設定は端末内にのみ保存されます。</li>
-        <li>無料版の運営のため、広告(Google AdMob)と簡易な利用状況分析(Firebase Analytics)を利用しています。</li>
+        <li>保存したポイントや各種設定は端末内(Web版の場合はブラウザ内)にのみ保存されます。</li>
+        <li>無料のAndroid版の運営のため、広告(Google AdMob)と簡易な利用状況分析(Firebase Analytics)を利用しています。Web版に広告は表示されません。</li>
         <li>アプリ内の「お問い合わせ」フォームを利用した場合、入力内容はFirebase Cloud Firestoreを通じて当方へ送信されます。</li>
-        <li>サブスクリプションを購入した場合、決済処理自体はGoogle Playが行い、当方はGoogle Playから購読状態のみを取得します。</li>
+        <li>Pro版(サブスクリプションまたは買い切り)を購入した場合、決済処理自体はGoogle Playが行い、当方はGoogle Playから権利状態のみを取得します。</li>
+        <li>Googleでサインインした場合(設定画面から、またはWeb版利用時)、Googleアカウントのメールアドレス・表示名・アカウント識別子を取得し、Android版とWeb版の両方で同じPro購入を有効にできるよう、その識別子に紐づけてPro権利の状態を保存します。</li>
       </ul>
     </div>
 
@@ -266,13 +291,30 @@
       </tr>
       <tr>
         <td>購入・サブスクリプション</td>
-        <td>サブスクリプションの購入処理はGoogle Play Billingが全て行います。当方は独自の決済
-          サーバーを持たず、決済情報自体を確認することはできません。アプリは広告非表示および
-          将来の有償機能を有効化するため、Google Playから購読状態のみを読み取ります。</td>
+        <td>サブスクリプションおよび買い切り(永久ライセンス)のPro購入処理はGoogle Play
+          Billingが全て行います。当方は独自の決済サーバーを持たず、決済情報自体を確認する
+          ことはできません。アプリは広告非表示および有償機能を有効化するため、Google Playから
+          権利状態のみを読み取ります。</td>
+      </tr>
+      <tr>
+        <td>Googleサインイン</td>
+        <td>Androidアプリの設定画面から、またはWeb版利用時にGoogleでサインインした場合、
+          Firebase Authentication経由でGoogleアカウントのメールアドレス・表示名・アカウント
+          識別子を受け取ります。これはどのアカウントを使用しているかを識別する目的のみに
+          利用し、広告目的等その他の用途には使用しません。</td>
+      </tr>
+      <tr>
+        <td>Pro権利の同期(Android⇄Web)</td>
+        <td>Android版でPro購入を行い、Googleでサインインした場合、そのGoogleアカウント識別子に
+          紐づけて「Pro権利が有効であること」を示すレコード(権利状態・商品/購入種別・更新
+          日時を含む)をFirebase Cloud Firestoreに保存します。このレコードにポイント・保存
+          データ・決済情報自体は含まれません。これは同じPro購入を、同じGoogleアカウントで
+          サインインしたWeb版でも有効にするためだけに使われます。</td>
       </tr>
       <tr>
         <td>端末内保存データ</td>
-        <td>ポイント・単位系・表示言語・表示設定は端末内にのみ保存され、当方へ送信されません。</td>
+        <td>ポイント・単位系・表示言語・表示設定は端末内(Web版の場合はブラウザのローカル
+          ストレージ内)にのみ保存され、当方へ送信されません。</td>
       </tr>
     </table>
 
@@ -280,9 +322,10 @@
     <ul>
       <li><strong>Google AdMob</strong> — 広告配信。詳細は
         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Googleパートナー向けポリシー</a>をご覧ください。</li>
-      <li><strong>Firebase(Google)</strong> — Analyticsおよび Cloud Firestore(お問い合わせ内容の保存)。
+      <li><strong>Firebase(Google)</strong> — Authentication(Googleサインイン)・Analytics・
+        Cloud Firestore(お問い合わせ内容の保存、Pro権利の同期)。
         詳細は<a href="https://firebase.google.com/support/privacy?hl=ja" target="_blank" rel="noopener">Firebaseとプライバシー</a>をご覧ください。</li>
-      <li><strong>Google Play Billing</strong> — サブスクリプションの購入処理。</li>
+      <li><strong>Google Play Billing</strong> — サブスクリプションおよび買い切りのPro購入処理。</li>
     </ul>
     <p>
       有償のオプション機能では、都市検索・緯度経度の手入力・「現在地から取得」のいずれかで
@@ -298,9 +341,12 @@
         関する同意設定を変更できます。</li>
       <li>サブスクリプションの管理・解約は、いつでも
         <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play &gt; 定期購入</a>から行えます。</li>
-      <li>当方はユーザーアカウントを保持していないため、個別のアカウント削除手続きはありません。
-        アプリをアンインストールすると端末内のデータは全て削除されます。過去に送信いただいた
-        お問い合わせ内容の削除をご希望の場合は、下記の方法でご連絡ください。</li>
+      <li>アプリの設定画面(「アカウント」欄)から、いつでもGoogleアカウントをサインアウト
+        できます。これにより上記のPro権利同期は停止しますが、Android版でのご購入自体には
+        影響しません。</li>
+      <li>アプリをアンインストールすると端末内のデータは全て削除されます。Googleアカウントに
+        紐づくPro権利のレコード、または過去に送信いただいたお問い合わせ内容の削除をご希望の
+        場合は、下記の方法でご連絡ください。</li>
     </ul>
 
     <h2>お子様のプライバシーについて</h2>
@@ -322,7 +368,7 @@
     var titleEl = document.getElementById('page-title');
     var updatedEl = document.getElementById('updated-label');
     var titles = { en: 'Privacy Policy', ja: 'プライバシーポリシー' };
-    var updated = { en: 'Effective date: 2026-08-19', ja: '施行日: 2026-08-19' };
+    var updated = { en: 'Effective date: 2026-08-30', ja: '施行日: 2026-08-30' };
 
     function setLang(lang) {
       buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
