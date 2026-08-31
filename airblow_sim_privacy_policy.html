@@ -101,10 +101,10 @@
 <!-- ==================== ENGLISH ==================== -->
 <section id="en" class="active">
   <div class="container">
-    <p class="updated">Last updated: July 25, 2026</p>
+    <p class="updated">Last updated: September 1, 2026</p>
 
     <div class="highlight">
-      <strong>Summary:</strong> Air Blow Simulator does not collect, store, or share any personal information you enter. All piping designs and calculations are performed and saved locally on your device. We display ads through Google AdMob, which may collect certain advertising-related data as described below.
+      <strong>Summary:</strong> Air Blow Simulator does not collect, store, or share the piping designs and calculations you enter — those are processed and saved locally on your device. We display ads through Google AdMob, which may collect certain advertising-related data as described below. If you choose to purchase the paid Pro upgrade (subscription, one-time purchase, or 3-day pass) it is processed entirely by Google Play. If you additionally sign in with Google — to use the ad-free, Pro-only Web version at the same time as the Android app — we receive your Google account's email address, display name, and account identifier, and store a record of your Pro entitlement linked to that identifier so the same purchase unlocks both.
     </div>
 
     <h2>1. Overview</h2>
@@ -125,6 +125,18 @@
     </ul>
     <p>This data is collected and processed by Google LLC in accordance with their own privacy policy. We do not have direct access to or control over this data.</p>
 
+    <h3>2.3 Purchases (Pro subscription, one-time purchase, or 3-day pass)</h3>
+    <p>The App offers an optional paid "Pro" upgrade (a monthly/yearly auto-renewing subscription, a one-time lifetime purchase, or a non-renewing 3-day pass) that removes ads and unlocks the Web version described below. All purchases are processed entirely by Google Play Billing. We do not operate our own payment servers and never see your payment details (card number, billing address, etc.). The App only reads your entitlement status (whether a purchase is currently active) from Google Play, or — for the 3-day pass — from an expiry timestamp stored locally on your device, to decide whether to hide ads and enable the Web version.</p>
+
+    <h3>2.4 Google Sign-In (optional, only if you use the Web version)</h3>
+    <p>The App itself does not require an account. If you choose to sign in with Google — solely to use the same Pro purchase from the companion Web version in your browser — we receive your Google account's email address, display name, and account identifier via Firebase Authentication. This is used only to identify which account you are using; we do not use it for advertising or any other purpose.</p>
+
+    <h3>2.5 Pro entitlement sync (Android ⇄ Web, via Firebase Cloud Firestore)</h3>
+    <p>If you purchase Pro on Android and sign in with Google, we store a record — linked to your Google account identifier — in Firebase Cloud Firestore indicating that your account has an active Pro entitlement (including the product/purchase type, the 3-day pass's expiry time if applicable, and an update timestamp). This record does not contain your piping designs, calculation data, or payment details. It exists solely so the same Pro purchase can unlock the ad-free Web version when you sign in there with the same Google account.</p>
+
+    <h3>2.6 Web version</h3>
+    <p>The App has a companion browser-based Web version for Pro users. The Web version shows no ads and stores your piping designs only in your browser's local storage — it is never transmitted to us. Visiting the Web version without an active Pro entitlement shows only a sign-in/upgrade screen.</p>
+
     <h2>3. How We Use Information</h2>
     <p>We do not use or process any personal information directly. The advertising data collected by Google AdMob is used by Google for:</p>
     <ul>
@@ -143,7 +155,10 @@
         Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a><br />
         Opt-out: You can opt out of personalized ads in your device settings (Android: Settings → Google → Ads; iOS: Settings → Privacy → Tracking).
       </li>
+      <li><strong>Firebase (Google)</strong> — Authentication (Google Sign-In) and Cloud Firestore (Pro entitlement sync), used only if you sign in to use the Web version. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase and privacy</a>.</li>
+      <li><strong>Google Play Billing</strong> — processes subscription, one-time, and 3-day pass Pro purchases.</li>
     </ul>
+    <p>You can manage or cancel your subscription at any time from <a href="https://play.google.com/store/account/subscriptions" target="_blank">Google Play &gt; Subscriptions</a>. You can sign out of your Google account at any time from the App's settings, which stops the Pro entitlement sync described above without affecting your Android purchase itself.</p>
 
     <h2>6. Children's Privacy</h2>
     <p>The App is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through the App, please contact us and we will take steps to delete such information.</p>
@@ -173,10 +188,10 @@
 <!-- ==================== JAPANESE ==================== -->
 <section id="ja">
   <div class="container">
-    <p class="updated">最終更新日：2026年7月25日</p>
+    <p class="updated">最終更新日：2026年9月1日</p>
 
     <div class="highlight">
-      <strong>要約：</strong>エアブロー シミュレーターは、あなたが入力した個人情報を収集・保存・共有しません。すべての配管設計・計算はお使いのデバイス上でローカルに処理・保存されます。Google AdMob を通じて広告を表示しており、AdMob が広告配信に関連する一部のデータを収集する場合があります（詳細は以下をご覧ください）。
+      <strong>要約：</strong>エアブロー シミュレーターは、あなたが入力した配管設計・計算データを収集・保存・共有しません。これらはお使いのデバイス上でローカルに処理・保存されます。Google AdMob を通じて広告を表示しており、AdMob が広告配信に関連する一部のデータを収集する場合があります（詳細は以下をご覧ください）。有償のPro版アップグレード（サブスクリプション・買い切り・3日間パス）を購入された場合、決済処理はGoogle Playが全て行います。さらにAndroid版と同時にWeb版（広告非表示・Pro版限定）を利用するためGoogleでサインインした場合、Googleアカウントのメールアドレス・表示名・アカウント識別子を取得し、その識別子に紐づけてPro権利の状態を保存し、同じ購入で両方を利用できるようにします。
     </div>
 
     <h2>1. はじめに</h2>
@@ -197,6 +212,18 @@
     </ul>
     <p>これらのデータは Google LLC が独自のプライバシーポリシーに基づき収集・処理するものです。当社はこれらのデータに直接アクセスしたり管理したりすることはありません。</p>
 
+    <h3>2.3 購入(Pro版サブスクリプション・買い切り・3日間パス)</h3>
+    <p>本アプリは、広告を非表示にし下記のWeb版を利用できるようになる有償の「Pro版」アップグレード(月額/年額の自動更新サブスクリプション、買い切り(永久ライセンス)、または非自動更新の3日間パス)を提供しています。決済処理はすべてGoogle Play Billingが行います。当社は独自の決済サーバーを持たず、カード番号・請求先住所等の決済情報を確認することは一切ありません。本アプリはGoogle Playから権利の有効状態のみを読み取ります(3日間パスについては、端末内に保存された有効期限のみで判定します)。これにより広告非表示・Web版の有効化を行います。</p>
+
+    <h3>2.4 Googleサインイン(任意、Web版を利用する場合のみ)</h3>
+    <p>本アプリ自体はアカウント登録を必要としません。ブラウザ版であるWeb版で同じPro権利を利用するためだけに、Googleでサインインを選択した場合、Firebase Authentication経由でGoogleアカウントのメールアドレス・表示名・アカウント識別子を受け取ります。これはどのアカウントを使用しているかを識別する目的のみに利用し、広告目的等その他の用途には使用しません。</p>
+
+    <h3>2.5 Pro権利の同期(Android⇄Web、Firebase Cloud Firestore経由)</h3>
+    <p>Android版でPro版を購入し、Googleでサインインした場合、そのGoogleアカウント識別子に紐づけて「Pro権利が有効であること」を示すレコード(商品/購入種別、3日間パスの場合は有効期限、更新日時を含む)をFirebase Cloud Firestoreに保存します。このレコードに配管設計・計算データや決済情報自体は含まれません。これは同じPro購入を、同じGoogleアカウントでサインインしたWeb版でも有効にするためだけに使われます。</p>
+
+    <h3>2.6 Web版について</h3>
+    <p>本アプリにはPro版ユーザー向けのブラウザ版(Web版)があります。Web版に広告は表示されず、配管設計データはブラウザのローカルストレージにのみ保存され、当社へ送信されることはありません。有効なPro権利が無い状態でWeb版にアクセスした場合は、サインイン・アップグレード案内画面のみが表示されます。</p>
+
     <h2>3. 情報の利用目的</h2>
     <p>当社は個人情報を直接利用・処理することはありません。Google AdMob が収集する広告関連データは、Google が以下の目的で使用します：</p>
     <ul>
@@ -215,7 +242,10 @@
         プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a><br />
         オプトアウト：デバイスの設定からパーソナライズ広告をオフにできます（Android：設定 → Google → 広告、iOS：設定 → プライバシー → トラッキング）。
       </li>
+      <li><strong>Firebase（Google）</strong> — Authentication（Googleサインイン）・Cloud Firestore（Pro権利の同期）。Web版利用のためサインインした場合のみ利用します。詳細は<a href="https://firebase.google.com/support/privacy?hl=ja" target="_blank">Firebaseとプライバシー</a>をご覧ください。</li>
+      <li><strong>Google Play Billing</strong> — サブスクリプション・買い切り・3日間パスのPro版購入処理。</li>
     </ul>
+    <p>サブスクリプションの管理・解約は、いつでも<a href="https://play.google.com/store/account/subscriptions" target="_blank">Google Play &gt; 定期購入</a>から行えます。本アプリの設定画面から、いつでもGoogleアカウントをサインアウトできます。これにより上記のPro権利同期は停止しますが、Android版でのご購入自体には影響しません。</p>
 
     <h2>6. 児童のプライバシー</h2>
     <p>本アプリは13歳未満の児童を対象としていません。当社は13歳未満の児童から意図的に個人情報を収集することはありません。万が一、13歳未満の児童が個人情報を提供していることが判明した場合は、当社までご連絡ください。速やかに該当情報の削除措置を取ります。</p>
