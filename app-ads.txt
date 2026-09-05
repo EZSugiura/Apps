@@ -7,6 +7,9 @@ adingo.jp, 30013, RESELLER
 #facebook
 facebook.com, 393063663160723, DIRECT, c3e20eee3f780d68
 
+#Liftoff
+vungle.com, 6a9bb9cbfe9530c740abf6b2, DIRECT, c107d686becd2d77
+
 #Unity Ads
 smartclip.net, 14679, RESELLER
 stroeer.com, 17379, RESELLER
@@ -130,3 +133,4 @@ improvedigital.com, 2297, RESELLER
 improvedigital.com, 2464, RESELLER
 pokkt.com, 6246, RESELLER, c45702d9311e25fd
 programmaticx.ai, 84448, RESELLER, b42d42eb28400efa
+
