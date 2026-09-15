@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー | AIが書く私の日記</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #4a5c92;
+    --border: #e0e0e0;
+    --card: #f7f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161c;
+      --fg: #e8e8ec;
+      --muted: #a3a6b0;
+      --accent: #9fb0e8;
+      --border: #2c2f3a;
+      --card: #1b1e27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.8;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  h1 {
+    font-size: 1.6em;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9em;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 1.15em;
+    margin-top: 2.2em;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+  }
+  h3 {
+    font-size: 1.0em;
+    margin-top: 1.6em;
+    color: var(--accent);
+  }
+  p, li { color: var(--fg); }
+  .lead {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-weight: 600;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 0.95em;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--card);
+    white-space: nowrap;
+  }
+  ul { padding-left: 1.4em; }
+  li { margin-bottom: 6px; }
+  .badge {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    margin-left: 6px;
+  }
+  .placeholder {
+    background: #fff3cd;
+    color: #7a5c00;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  @media (prefers-color-scheme: dark) {
+    .placeholder { background: #4a3d10; color: #ffe08a; }
+  }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85em;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>プライバシーポリシー</h1>
+  <p class="updated">対象アプリ: 「AIが書く私の日記」（Android）／最終更新日: 2026年9月14日</p>
+
+  <p class="lead">
+    基本方針: あなたの一日の行動データ（位置情報・アプリ利用履歴）は、あなたのスマートフォンの中だけに残ります。
+    位置情報の生ログ、アプリ利用履歴、生成された日記の本文は、開発者を含む第三者のサーバーには送信されません
+    （地図・天気・場所種別の判定等のために、座標などごく一部の情報を外部サービスへ送信する場合があります。詳細は本ポリシー内で説明します）。
+  </p>
+
+  <h2>1. はじめに</h2>
+  <p>
+    「AIが書く私の日記」（以下「本アプリ」）は、ユーザーのスマートフォンの行動データ（位置情報・アプリ利用履歴・天気情報等）をもとに、
+    端末内で動作するAI（オンデバイスLLM）が日記を生成するアプリです。本ポリシーは、本アプリが取り扱う情報について説明します。
+  </p>
+
+  <h2>2. 収集しない情報（端末内でのみ処理）</h2>
+  <p>以下の情報は端末内の本アプリ専用領域にのみ保存され、開発者を含むいかなる第三者のサーバーにも送信されません。</p>
+  <ul>
+    <li>位置情報の履歴（滞在・移動の記録）</li>
+    <li>アプリの利用履歴（どのアプリをいつ・どれくらい使ったか）</li>
+    <li>生成された日記の本文、および生成のためにユーザーが入力したメモ</li>
+    <li>共有機能で保存したページのタイトル・URL</li>
+  </ul>
+
+  <h2>3. 取得する権限とその目的</h2>
+  <table>
+    <tr><th>権限</th><th>目的</th></tr>
+    <tr>
+      <td>位置情報（前景・バックグラウンド）</td>
+      <td>行動タイムライン（滞在・移動）の生成のため。約15分間隔で端末内に記録します。</td>
+    </tr>
+    <tr>
+      <td>身体活動（Activity Recognition）</td>
+      <td>滞在/移動および移動手段（徒歩・自転車・車）の判定精度向上のため。</td>
+    </tr>
+    <tr>
+      <td>使用状況へのアクセス（Usage Access）</td>
+      <td>その日利用したアプリと利用時間を日記に反映するため。設定アプリからの手動許可が必要です。</td>
+    </tr>
+    <tr>
+      <td>インターネット・ネットワーク状態</td>
+      <td>AIモデルのダウンロード、下記4章の外部サービスとの通信、広告表示のため。</td>
+    </tr>
+  </table>
+
+  <h2>4. データの保管場所</h2>
+  <p>
+    すべての行動データ・生成した日記は、端末内のアプリ専用領域（Roomデータベース）に保存されます。
+    本アプリはAndroid標準のバックアップ機能に対応しているため、端末の設定によってはGoogleアカウントのバックアップに
+    アプリデータが含まれる場合がありますが、これはOS標準の機能であり、開発者のサーバーへ送信されるものではありません。
+  </p>
+
+  <h2>5. 外部サービスとの通信</h2>
+  <p>本アプリはアカウント登録・ログインを必要としません。以下の場面でのみ、必要最小限の情報を外部サービスへ送信します。</p>
+
+  <h3>5.1 場所の種類の推定（OpenStreetMap Overpass API）</h3>
+  <ul>
+    <li>「自宅」「カフェ」等の場所の種類を推定するため、訪れた場所の<strong>座標のみ</strong>を送信します。</li>
+    <li>行動履歴・時刻・アプリ利用履歴など、他の情報は一切送信しません。</li>
+    <li>同じ場所（約100m四方）への問い合わせは初回のみ行われ、結果は端末内にキャッシュされます。</li>
+    <li>設定画面からこの機能自体をオフにできます（オフの場合は「不明な場所」として扱われます）。</li>
+    <li>ユーザーが自宅・職場等を手動登録した場合、その場所については外部問い合わせを行いません。</li>
+  </ul>
+
+  <h3>5.2 地図タイルの表示（OpenStreetMap）</h3>
+  <ul>
+    <li>「行動を見る」画面の地図表示のため、画面に表示している範囲の座標情報をOpenStreetMapのタイル配信サーバーへ送信します。</li>
+  </ul>
+
+  <h3>5.3 天気・気温の取得（Open-Meteo）</h3>
+  <ul>
+    <li>その日最も長く滞在した地点の<strong>座標と日付</strong>を送信し、気温・湿度・降水量・天気を取得します。</li>
+    <li>APIキー不要の無料サービスであり、個人を特定する情報は送信しません。</li>
+  </ul>
+
+  <h3>5.4 AIモデルのダウンロード（Hugging Face）</h3>
+  <ul>
+    <li>初回利用時、日記生成に使うAIモデルファイル（約2.6GB）をHugging Face（<code>litert-community/gemma-4-E2B-it-litert-lm</code>）から取得します。</li>
+    <li>認証不要の匿名ダウンロードであり、個人情報は送信しません。</li>
+  </ul>
+
+  <h3>5.5 共有ページのタイトル取得</h3>
+  <ul>
+    <li>ユーザーが他のアプリ（ブラウザ・SNS等）の「共有」メニューから本アプリにページを保存した場合、そのページのタイトルを取得するために、
+      <strong>ユーザー自身が共有を選んだURL</strong>へ本アプリがアクセスすることがあります。</li>
+    <li>この際、アクセス先のWebサイトに対して通常のWebアクセスと同様の情報（IPアドレス等）が渡ります。</li>
+    <li>取得したタイトルはAIへの日記生成の材料として使われますが、URL自体はAIには渡しません。</li>
+    <li>設定画面からこの自動取得機能をオフにできます。</li>
+  </ul>
+
+  <h3>5.6 広告の配信（Google AdMob）</h3>
+  <ul>
+    <li>本アプリはGoogle AdMobによる広告（画面下部のバナー広告、アプリ起動時の広告）を表示します。</li>
+    <li>広告配信のため、広告識別子（Advertising ID）等の情報がGoogleに送信されます。</li>
+    <li>Googleによる広告データの取り扱いについては、
+      <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Googleの広告に関するポリシー</a>
+      をご確認ください。</li>
+    <li>パーソナライズ広告は、端末の「設定」→「プライバシー」→「広告」から広告IDのリセットやパーソナライズ広告の無効化が可能です。</li>
+  </ul>
+
+  <h2>6. 子供のプライバシー</h2>
+  <p>
+    本アプリは主に成人ユーザーを対象としており、13歳未満のお子様から意図的に個人情報を収集することはありません。
+  </p>
+
+  <h2>7. 本ポリシーの変更</h2>
+  <p>
+    本アプリの機能追加・変更に伴い、本ポリシーの内容を予告なく変更することがあります。重要な変更がある場合は、本ページの更新日を変更してお知らせします。
+  </p>
+
+  <h2>8. お問い合わせ</h2>
+  <p>
+    本ポリシーおよび本アプリの個人情報の取り扱いに関するお問い合わせは、以下までご連絡ください。
+  </p>
+  <ul>
+    <li>開発者名: <span class="placeholder">［開発者名またはハンドルネームを入力］</span></li>
+    <li>連絡先メールアドレス: <span class="placeholder">［連絡先メールアドレスを入力］</span></li>
+  </ul>
+
+  <footer>
+    <p>本ページは静的HTMLとして公開されています。修正が必要な場合はこのファイル（ai-diary-privacy-policy.html）を直接編集してください。</p>
+  </footer>
+
+</div>
+</body>
+</html>
