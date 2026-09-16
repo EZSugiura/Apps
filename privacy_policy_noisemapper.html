@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoiseMapper プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .last-updated {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NoiseMapper プライバシーポリシー</h1>
+        <p class="last-updated">最終更新日: 2024年9月16日</p>
+
+        <div class="section">
+            <h2>1. はじめに</h2>
+            <p>NoiseMapper（以下「本アプリ」）は、屋内騒音分布をマッピングするアプリです。本プライバシーポリシーは、本アプリの使用に関して、どのようなデータを収集し、どのように使用するかについて説明しています。</p>
+        </div>
+
+        <div class="section">
+            <h2>2. 収集するデータ</h2>
+            <h3>2.1 ローカルに保存されるデータ</h3>
+            <p>本アプリは以下のデータをデバイスのローカルストレージに保存します：</p>
+            <ul>
+                <li><strong>プロジェクトデータ</strong>：プロジェクト名、エリアサイズ、フロアマップ画像</li>
+                <li><strong>測定データ</strong>：測定点の座標、騒音レベル（dB）、タイムスタンプ</li>
+                <li><strong>キャリブレーション情報</strong>：センサーの補正値</li>
+                <li><strong>ユーザー設定</strong>：テーマ、言語設定など</li>
+                <li><strong>位置情報</strong>：ARCore測位データ（デバイス内のみ）</li>
+            </ul>
+            <p><strong>※ 本アプリはこれらのデータをサーバーに送信しません。すべてのデータはデバイス内に保存されます。</strong></p>
+
+            <h3>2.2 デバイス機能へのアクセス</h3>
+            <p>本アプリが正常に機能するために、以下の権限をリクエストします：</p>
+            <ul>
+                <li><strong>マイク（RECORD_AUDIO）</strong>：騒音を測定するため</li>
+                <li><strong>カメラ（CAMERA）</strong>：ARCore位置推定のため（音声は記録されません）</li>
+                <li><strong>位置情報（ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION）</strong>：GPS位置を取得するため</li>
+                <li><strong>Wi-Fi状態（ACCESS_WIFI_STATE, CHANGE_WIFI_STATE）</strong>：Wi-Fi RTT測位のため</li>
+                <li><strong>インターネット（INTERNET）</strong>：Google Mobile Ads、ARCore配信のため</li>
+            </ul>
+
+            <h3>2.3 外部サービスへの送信データ</h3>
+            <ul>
+                <li><strong>Google Mobile Ads（広告配信）</strong>：デバイスID、言語、位置情報（概略）</li>
+                <li><strong>Google ARCore</strong>：ARCore機能の有効化確認（必須機能ではありません）</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. データの使用目的</h2>
+            <ul>
+                <li>騒音分布測定機能の提供</li>
+                <li>測定結果の保存・管理</li>
+                <li>位置推定の実施（ARCore、GPS、Wi-Fi RTT）</li>
+                <li>アプリの改善と機能開発</li>
+                <li>関連広告の配信（Google Mobile Ads経由）</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. データの保護</h2>
+            <ul>
+                <li>測定データはデバイスのローカルストレージに保存されます</li>
+                <li>デバイスの暗号化機能により保護されます</li>
+                <li>ユーザーはいつでもデータを削除できます</li>
+                <li>本アプリはサーバーバックアップ機能を備えていません</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. 第三者サービスのプライバシーポリシー</h2>
+            <p>本アプリが使用する外部サービスのプライバシーポリシー：</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob プライバシーに関するよくある質問</a></li>
+                <li><a href="https://arcore.google.com/about/" target="_blank">Google ARCore について</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. お子様の使用について</h2>
+            <p>本アプリは13歳以上を対象としています。13歳未満のお子様には使用させないようお願いします。親権者または保護者の責任において、お子様への説明と同意を得た上でご使用ください。</p>
+        </div>
+
+        <div class="section">
+            <h2>7. ポリシーの変更</h2>
+            <p>本プライバシーポリシーは予告なく変更される場合があります。変更はこのページに掲載された時点で有効になります。</p>
+        </div>
+
+        <div class="section">
+            <h2>8. お問い合わせ</h2>
+            <p>プライバシーに関するご質問やご懸念がある場合は、以下の方法でお問い合わせください：</p>
+            <ul>
+                <li><strong>メール</strong>：eizosugiura@gmail.com</li>
+                <li><strong>GitHub</strong>：https://github.com/eizos/NoiseMapper</li>
+            </ul>
+        </div>
+
+        <div class="section" style="background: #ecf0f1; padding: 15px; border-left: 4px solid #e74c3c; margin-top: 30px;">
+            <h3>重要な注意事項</h3>
+            <p>本アプリは騒音マップ作成用の補助ツールです。<strong>公式な騒音測定目的には使用しないでください。</strong>精密な騒音計と比較して精度が劣ります。</p>
+        </div>
+    </div>
+</body>
+</html>
