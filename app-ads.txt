@@ -136,6 +136,20 @@ programmaticx.ai, 84448, RESELLER, b42d42eb28400efa
 
 #BIGO
 bigo.sg,7yk1bl0meh,DIRECT
+adingo.jp, 31595, RESELLER
+pubnative.net, 1018308, RESELLER, d641df8625486a7b
+smaato.com, 1100060477, RESELLER, 07bcf65f187117b4
+smaato.com, 1100060475, RESELLER, 07bcf65f187117b4
+risecodes.com, 6a952bfdeb73a000010a2f63, RESELLER
+taurusx.com, 80657, RESELLER
+bid-matrix.com, d576e3be59319075, RESELLER
+adorphic.com, 4067, RESELLER
+vistars.ai, d7njl5dbhjes73cnd8tg, RESELLER
+gravite.net, c6f2f6708dc1f6e2ae1165c0a861b3b0, RESELLER
+openx.com, 564879531, RESELLER, 6a698e2ec38604c6
+conversantmedia.com, 101349, RESELLER, 03113cd04947736d
+krushmedia.com, AJxF6R719a9M6CaTvK, RESELLER
+insticator.com, e2d3e33c-9911-477a-8ae2-f059870c67c0, RESELLER, b3511ffcafb23a32
 adingenious.com, 70392, RESELLER
 start.io, 115550145, RESELLER
 rubiconproject.com, 27026, RESELLER, 0bfd66d529a55807
