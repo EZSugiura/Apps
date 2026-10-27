@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ゲーム『Trap Maiden』のプライバシーポリシー。取得する情報、利用目的、外部サービス、保存と削除について説明します。">
+  <title>プライバシーポリシー | Trap Maiden</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #292524;
+      --muted: #625b56;
+      --paper: #fffdf9;
+      --wash: #f6f0e8;
+      --accent: #8c3c32;
+      --line: #e5d9ca;
+      --notice: #fff5d9;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--wash);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      line-height: 1.85;
+    }
+    header {
+      padding: 3.5rem 1.25rem 2.75rem;
+      background: linear-gradient(135deg, #5c302b, #9c5142);
+      color: #fffaf3;
+    }
+    header > div, main, footer { width: min(100% - 2rem, 850px); margin-inline: auto; }
+    header p { margin: 0 0 .45rem; opacity: .85; letter-spacing: .08em; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.25; }
+    header .date { margin-top: 1rem; font-size: .92rem; }
+    main { padding-block: 1.5rem 3rem; }
+    .notice {
+      margin: 0 0 1.25rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid #e6c977;
+      border-radius: .8rem;
+      background: var(--notice);
+    }
+    .notice strong { color: #6b4d09; }
+    nav, section {
+      margin: 1rem 0;
+      padding: 1.25rem clamp(1rem, 4vw, 1.75rem);
+      border: 1px solid var(--line);
+      border-radius: .9rem;
+      background: var(--paper);
+    }
+    nav h2, section h2 { margin-top: 0; font-size: 1.2rem; }
+    nav ol { margin-bottom: 0; padding-left: 1.4rem; columns: 2; }
+    a { color: var(--accent); text-underline-offset: .18em; overflow-wrap: anywhere; }
+    h2 { color: #633a32; }
+    h3 { margin-bottom: .25rem; font-size: 1.03rem; }
+    p { margin: .55rem 0 1rem; }
+    ul { padding-left: 1.4rem; }
+    li + li { margin-top: .25rem; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 540px; }
+    th, td { padding: .7rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { width: 27%; background: #f8f1e8; }
+    .small { color: var(--muted); font-size: .92rem; }
+    footer { padding: 0 0 2.5rem; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 560px) {
+      nav ol { columns: 1; }
+      header { padding-top: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <p>TRAP MAIDEN</p>
+      <h1>プライバシーポリシー</h1>
+      <p class="date">制定日・最終更新日：2026年10月28日</p>
+    </div>
+  </header>
+
+  <main>
+    <aside class="notice" aria-label="公開前の確認事項">
+      <strong>公開前に要確認：</strong>
+      アカウント削除機能とウェブからの削除申請窓口は、アプリ側・運用側の整備が必要です。
+    </aside>
+
+    <section>
+      <p>本プライバシーポリシーは、ゲームアプリ「Trap Maiden」（以下「本アプリ」）における利用者情報の取扱いを説明するものです。</p>
+      <p><strong>運営者：</strong>ezgames</p>
+      <p>運営者は、利用者情報を適切に取り扱い、関係する法令およびガイドラインを遵守します。</p>
+    </section>
+
+    <nav aria-label="目次">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#data">取得する情報</a></li>
+        <li><a href="#purpose">利用目的</a></li>
+        <li><a href="#services">外部サービスへの提供</a></li>
+        <li><a href="#storage">保存期間と安全管理</a></li>
+        <li><a href="#choices">利用者による選択・削除</a></li>
+        <li><a href="#children">子どもの利用</a></li>
+        <li><a href="#changes">改定</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ol>
+    </nav>
+
+    <section id="data">
+      <h2>1. 取得する情報</h2>
+      <p>本アプリは、機能の提供に必要な範囲で、次の情報を取得または保存します。</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>情報</th><th>内容・取得方法</th></tr></thead>
+          <tbody>
+            <tr>
+              <th>ゲームデータ</th>
+              <td>進行状況、所持アイテム、ゲーム内通貨、物語の進行状況など。端末内に保存し、Firebase のクラウドセーブを利用する場合はアカウントに関連付けて保存します。</td>
+            </tr>
+            <tr>
+              <th>アカウント情報</th>
+              <td>Firebase Authentication による匿名アカウントの識別子。利用者が Google アカウントを連携した場合、認証に必要な Google アカウント情報（メールアドレス等）が Google および Firebase から提供される場合があります。</td>
+            </tr>
+            <tr>
+              <th>不具合報告・改善依頼</th>
+              <td>利用者が入力した種別と本文（最大2,000文字）、アカウント識別子、アプリの版、端末の製造元・機種、Android のバージョン、端末の言語設定、クリア済みの最深階、送信日時。</td>
+            </tr>
+            <tr>
+              <th>広告に関する情報</th>
+              <td>広告の配信・測定・不正防止のため、Google Mobile Ads SDK 等を通じて、広告識別子、IP アドレス、アプリや広告との操作情報、診断情報等が取得される場合があります。取得項目や利用方法は端末設定、同意状況、Google のサービス設定により異なります。</td>
+            </tr>
+            <tr>
+              <th>Google Play ゲーム</th>
+              <td>Google Play ゲームサービスを利用する場合、そのサインインやサービス提供に必要なアカウント情報等が Google により取り扱われます。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">不具合報告には、氏名、住所、連絡先、パスワードなど、報告の対応に不要な個人情報を書かないでください。</p>
+    </section>
+
+    <section id="purpose">
+      <h2>2. 利用目的</h2>
+      <ul>
+        <li>本アプリの提供、ゲームデータの保存・復元、利用者の認証のため</li>
+        <li>不具合報告・改善依頼への対応および本アプリの品質改善のため</li>
+        <li>広告の配信、効果測定、表示頻度の管理および不正防止のため</li>
+        <li>お問い合わせへの回答、利用規約・法令への対応のため</li>
+      </ul>
+      <p>取得した情報を、上記の目的または取得時に個別にお知らせした目的の範囲を超えて利用する場合は、法令に従い必要な対応を行います。</p>
+    </section>
+
+    <section id="services">
+      <h2>3. 外部サービスへの提供</h2>
+      <p>本アプリは、次のサービスを利用します。各サービス提供者は、それぞれのプライバシーポリシー等に従って情報を取り扱います。</p>
+      <ul>
+        <li>Firebase Authentication、Cloud Firestore（認証、クラウドセーブ、不具合報告の保存）</li>
+        <li>Google Mobile Ads SDK、Google の同意管理（広告の配信・同意取得）</li>
+        <li>Google Play ゲームサービス（サインイン等）</li>
+      </ul>
+      <p>これらのサービス提供に必要な情報は、各サービス提供者に送信されます。Google のサービスにより、日本国外で情報が処理される場合があります。各社の取扱いについては、以下をご確認ください。</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy?hl=ja" rel="noopener noreferrer">Google プライバシーポリシー</a></li>
+        <li><a href="https://firebase.google.com/support/privacy?hl=ja" rel="noopener noreferrer">Firebase におけるプライバシーとセキュリティ</a></li>
+      </ul>
+      <p>本アプリでは、Google の同意管理機能を通じて、地域や設定に応じて広告に関する同意確認を行います。広告のパーソナライズ設定は、利用者の同意および端末の広告設定に従います。</p>
+      <h3>アプリ内購入について</h3>
+      <p>有償ガチャの販売を開始した場合、購入手続きは Google Play を通じて行います。決済情報は Google Play が取り扱い、運営者はクレジットカード番号やセキュリティコードを取得しません。購入商品・購入状態等は、購入処理、ゲーム内アイテムの付与、二重付与の防止、お問い合わせ対応に必要な範囲で利用します。</p>
+    </section>
+
+    <section id="storage">
+      <h2>4. 保存期間と安全管理</h2>
+      <p>端末内のゲームデータは、本アプリのデータ削除操作またはアプリのアンインストール等により端末から削除される場合があります。クラウドセーブおよび不具合報告は、利用目的に必要な期間保存し、不要となった場合は適切な方法で削除または整理します。</p>
+      <p>運営者は、情報への不正アクセス、紛失、改ざん、漏えい等を防ぐため、利用するサービスの機能を活用し、合理的な安全管理に努めます。ただし、インターネット通信や電子的保存に完全な安全を保証するものではありません。</p>
+    </section>
+
+    <section id="choices">
+      <h2>5. 利用者による選択・削除</h2>
+      <h3>Google アカウント連携</h3>
+      <p>Google アカウント連携は任意です。連携すると、別の端末でセーブデータを引き継ぐために利用できます。Google アカウントの管理や連携解除は、Google のアカウント設定・サービスの手順もご確認ください。</p>
+      <h3>セーブデータ・アカウントの削除</h3>
+      <p>アプリ内のセーブデータ削除操作では、端末内のセーブデータと、可能な場合は対応するクラウドセーブを削除します。この操作だけでは Firebase Authentication のアカウント自体は削除されません。</p>
+      <p>アカウントおよび関連データの削除を希望する場合は、下記のお問い合わせ先から「Trap Maiden のアカウント削除」と明記してご連絡ください。本人確認のうえ、法令上保存が必要な情報を除き、Firebase アカウントおよび関連するクラウドセーブ等を削除します。削除後はクラウドセーブを復元できません。</p>
+      <p><strong>ウェブからの削除申請：</strong>このページに掲載するお問い合わせ先へ、アプリ名、削除を希望する旨、連絡可能なメールアドレスをお知らせください。本人確認に必要な追加情報をお願いする場合があります。</p>
+      <p>不具合報告の削除や、保有情報の確認・訂正に関するご相談も、同じ窓口で受け付けます。</p>
+    </section>
+
+    <section id="children">
+      <h2>6. 子どもの利用</h2>
+      <p>未成年の方は、保護者の方と本ポリシーを確認したうえで本アプリをご利用ください。保護者の同意なく個人情報を送信しないでください。</p>
+    </section>
+
+    <section id="changes">
+      <h2>7. 改定</h2>
+      <p>法令、本アプリの機能または情報の取扱いに変更があった場合、本ポリシーを改定することがあります。重要な変更は、本アプリまたは掲載ページでお知らせします。改定後のポリシーは、このページに掲載した時点から適用します。</p>
+    </section>
+
+    <section id="contact">
+      <h2>8. お問い合わせ</h2>
+      <p>本ポリシーおよび利用者情報の取扱いに関するお問い合わせ、削除申請は、次の窓口へご連絡ください。</p>
+      <p><strong>運営者：</strong>ezgames<br>
+         <strong>メールアドレス：</strong><a href="mailto:ez_games@ymail.ne.jp">ez_games@ymail.ne.jp</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Trap Maiden</p>
+  </footer>
+</body>
+</html>
