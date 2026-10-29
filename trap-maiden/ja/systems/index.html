@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>基本システム | 罠師の娘 攻略ガイド</title>
+<meta name="description" content="罠師の娘 のターンと敵の気づき、地形、COMBO と CHAIN の倍率表、ダメージの計算例。">
+<meta property="og:title" content="基本システム | 罠師の娘 攻略ガイド">
+<meta property="og:description" content="罠師の娘 のターンと敵の気づき、地形、COMBO と CHAIN の倍率表、ダメージの計算例。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="罠師の娘 攻略ガイド">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:url" content="https://ezsugiura.github.io/Apps/trap-maiden/ja/systems/index.html">
+<link rel="canonical" href="https://ezsugiura.github.io/Apps/trap-maiden/ja/systems/index.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="基本システム | 罠師の娘 攻略ガイド">
+<meta name="twitter:description" content="罠師の娘 のターンと敵の気づき、地形、COMBO と CHAIN の倍率表、ダメージの計算例。">
+<meta property="og:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/ja.jpg">
+<meta name="twitter:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/ja.jpg">
+<link rel="alternate" hreflang="ja" href="https://ezsugiura.github.io/Apps/trap-maiden/ja/systems/index.html">
+<link rel="alternate" hreflang="en" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="alternate" hreflang="de" href="https://ezsugiura.github.io/Apps/trap-maiden/de/systems/index.html">
+<link rel="alternate" hreflang="es" href="https://ezsugiura.github.io/Apps/trap-maiden/es/systems/index.html">
+<link rel="alternate" hreflang="fr" href="https://ezsugiura.github.io/Apps/trap-maiden/fr/systems/index.html">
+<link rel="alternate" hreflang="id" href="https://ezsugiura.github.io/Apps/trap-maiden/id/systems/index.html">
+<link rel="alternate" hreflang="it" href="https://ezsugiura.github.io/Apps/trap-maiden/it/systems/index.html">
+<link rel="alternate" hreflang="ko" href="https://ezsugiura.github.io/Apps/trap-maiden/ko/systems/index.html">
+<link rel="alternate" hreflang="pl" href="https://ezsugiura.github.io/Apps/trap-maiden/pl/systems/index.html">
+<link rel="alternate" hreflang="pt" href="https://ezsugiura.github.io/Apps/trap-maiden/pt/systems/index.html">
+<link rel="alternate" hreflang="ru" href="https://ezsugiura.github.io/Apps/trap-maiden/ru/systems/index.html">
+<link rel="alternate" hreflang="th" href="https://ezsugiura.github.io/Apps/trap-maiden/th/systems/index.html">
+<link rel="alternate" hreflang="tr" href="https://ezsugiura.github.io/Apps/trap-maiden/tr/systems/index.html">
+<link rel="alternate" hreflang="vi" href="https://ezsugiura.github.io/Apps/trap-maiden/vi/systems/index.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hans/systems/index.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hant/systems/index.html">
+<link rel="alternate" hreflang="x-default" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js" defer></script>
+<script src="../../assets/search.js" defer></script>
+
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.html">罠師の娘 攻略ガイド</a>
+  <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">&#9776; メニュー</button>
+</header>
+<div class="sidebar" id="site-nav">
+  <a class="brand" href="../index.html">罠師の娘<br><small>攻略ガイド</small></a>
+  <div class="search" hidden data-index="../search-index.json" data-base="../" data-none="見つかりませんでした" data-error="検索データを読み込めませんでした">
+    <input type="search" id="site-search" placeholder="サイト内を検索（罠・敵・階・FAQ…）" aria-label="サイト内検索" autocomplete="off" enterkeyhint="search">
+    <ul class="search-results" id="search-results" role="listbox" hidden></ul>
+  </div>
+  <nav aria-label="メニュー"><a href="../index.html">トップ</a><div class="nav-group">初心者向け</div><a href="../beginner/daily.html">毎日やること</a><a href="../beginner/unlocks.html">階層別に開放される機能</a><a href="../beginner/first30.html">最初の30階の進め方</a><div class="nav-group">図鑑・データ</div><a href="../traps/index.html">罠</a><a href="../armor/index.html">防具</a><a href="../enemies/index.html">敵図鑑</a><a href="../gacha/index.html">ガチャ</a><a href="../upgrade/index.html">強化表</a><div class="nav-group">攻略</div><a href="../story/index.html">ストーリー</a><a href="../cave/index.html">特訓場洞窟</a><a href="../hard/index.html">ハードモード</a><div class="nav-group">ゲームのしくみ</div><a href="../systems/index.html" class="current" aria-current="page">基本システム</a><a href="../house/index.html">リリィの家</a><a href="../characters/index.html">登場人物</a><a href="../faq/index.html">用語集・FAQ</a><div class="nav-group">ツール・その他</div><a href="../tools/combo.html">COMBO計算機</a><a href="../changelog.html">更新履歴</a></nav>
+  
+  <details class="langs"><summary>言語: 日本語</summary><ul class="lang-list"><li><a href="../../ja/systems/index.html" hreflang="ja" lang="ja" aria-current="true">日本語</a></li><li><a href="../../en/systems/index.html" hreflang="en" lang="en">English</a></li><li><a href="../../de/systems/index.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="../../es/systems/index.html" hreflang="es" lang="es">Español</a></li><li><a href="../../fr/systems/index.html" hreflang="fr" lang="fr">Français</a></li><li><a href="../../id/systems/index.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="../../it/systems/index.html" hreflang="it" lang="it">Italiano</a></li><li><a href="../../ko/systems/index.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="../../pl/systems/index.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="../../pt/systems/index.html" hreflang="pt" lang="pt">Português</a></li><li><a href="../../ru/systems/index.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="../../th/systems/index.html" hreflang="th" lang="th">ไทย</a></li><li><a href="../../tr/systems/index.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../../vi/systems/index.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="../../zh-Hans/systems/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../zh-Hant/systems/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li></ul></details>
+</div>
+<div class="content">
+<main>
+
+<h1>基本システム</h1><h2 id="s1">ターンと敵の気づき</h2><h3 id="s2">ターン</h3><ul><li>リリィが1回行動すると、敵も1回行動します。</li><li>ターンを使う行動：1マス移動、罠を置く、その場で待機、罠の回収（目の前の、まだ発動していない罠）。</li><li>ターンを使わない行動：向きを変える、マップを見渡す。</li><li>敵の行動の速さは、敵ごとに違います。遅い敵・ふつうの敵・速い敵がいます（<a href="../enemies/index.html">敵図鑑</a>の「速さ」）。</li><li>同じターンに発動した罠は、すべて「COMBO」として数えます。</li></ul><p>1ターンの流れ：</p><ol><li>リリィの行動</li><li>リリィが踏んだ罠の判定</li><li>時限の罠のカウント</li><li>敵の行動（敵が動いて踏んだ罠も判定）</li><li>状態異常の残りターンが減る</li><li>敵が全滅していれば、ゴールが開く</li></ol><h3 id="s3">敵の気づき</h3><ul><li>敵は、リリィに気づくまでは、うろうろ歩きます。</li><li>気づくと、最短の道でリリィを追いかけます。見失うと、最後に見た場所まで行ってから、うろうろにもどります。</li><li>気づく範囲（視界）は、ふつうは6マスです。敵によって違い、同じ部屋にいるか、壁にさえぎられない直線があると見つけます。</li><li>階によっては、「追ってくる敵」は<strong>はじめからリリィの場所を知っています</strong>。始まったらすぐ近づいてきます。各階の敵表の「気づき方」で確かめられます。</li><li>逃げる敵（ウサギなど）、動かない見張り、ボスは、視界で気づく階があります。</li><li>煙玉などで目がくらんでいる敵は、何も見えません。</li><li>誘引の罠（鳴子・ごちそう袋など）があるときは、敵はまず罠のほうへ向かいます。優先順位は「状態異常 ＞ 誘引・ごちそう ＞ おとり ＞ リリィ」です。</li><li>敵は、ふつう罠をよけません。ただし、罠を見破る敵は、近くの罠をよけます。</li><li>ボスには、眠り・拘束などの状態異常が、50%の長さしか効きません。</li></ul><h3 id="s4">敵のレベル</h3><ul><li>敵のレベルが1上がるごとに、HPが18%ふえます。</li><li>敵の一撃の痛さは、レベルでは変わりません。階ごとに決まっています。</li></ul><h3 id="s5">リリィのHP</h3><ul><li>はじめの最大HPは120に、身につけた防具のぶんを足した数です。</li><li>時間がたってもHPは回復しません。広告での回復や、防具のスキルで回復します。</li></ul><h2 id="terrain">地形</h2><p>マップには、土壁（岩）・低い壁・水たまりがあります。どれも、<strong>ふつうの罠は置けません</strong>。</p><div class="table-wrap"><table><thead><tr><th>地形</th><th>リリィ</th><th>歩く敵</th><th>飛ぶ敵</th><th>視線</th></tr></thead><tbody><tr><td>土壁（岩）</td><td>通れない</td><td>通れない</td><td>通れない</td><td>さえぎる。直線の罠・なぎ払いも止める</td></tr><tr><td>低い壁</td><td>通れない</td><td>通れない（跳ぶ敵は越える）</td><td>越える</td><td>さえぎらない</td></tr><tr><td>水たまり</td><td>通れない</td><td>通れない（水の中を進む敵と、跳ぶ敵は入れる）</td><td>入れる</td><td>さえぎらない</td></tr></tbody></table></div><ul><li><strong>土壁</strong>：誰も通れません。身をかくす場所にも使えます。</li><li><strong>低い壁</strong>：歩く敵だけを足止めできます。低い壁を越える敵：<a href="../enemies/E04.html">臆病ウサギ</a>、<a href="../enemies/E05.html">ちびネズミ</a>、<a href="../enemies/E06.html">跳ねガエル</a>。</li><li><strong>水たまり</strong>：水の中を進める敵：<a href="../enemies/E02.html">青光りスライム</a>、<a href="../enemies/E06.html">跳ねガエル</a>。</li><li>防具のスキルで、水の中を歩いたり、低い壁を越えたりできるようになるものがあります。</li><li>水の上にしか置けない罠もあります。</li></ul><h2 id="combo">COMBO と CHAIN</h2><p>大きなダメージを出すしくみが2つあります。<strong>COMBO</strong>と<strong>CHAIN</strong>です。この2つは、<strong>同時に発動できます。</strong></p><h3 id="s6">COMBO（同じターンの罠の数）</h3><ul><li><strong>1ターンの中で、発動した罠の数</strong>です。1つ目、2つ目、3つ目……と数えます。</li><li>属性の反応（油に火、濡れに雷、凍結に物理）が起きると、COMBO がふえます。</li><li>2つ目以降の罠は、ダメージが大きくなります。倍率は下の表です。</li><li>数えるのは、そのターンに発動した罠すべてです。リリィが置いた罠でも、敵が踏んだ罠でも同じです。</li></ul><h3 id="s7">CHAIN（連続したターン）</h3><ul><li><strong>1体の敵が、とぎれずに、次のターンも罠にかかる</strong>と CHAIN になります。</li><li>1ターン目は 1、次のターンも罠にかかれば 2、3……とふえます。</li><li>罠に捕まって動けないターン（拘束・凍結・しびれ・眠り・気絶など）は、CHAIN がとぎれません。ただし数はふえません。</li><li>罠にかからないターンが1回でもあると、1にもどります。</li><li>数えるのは、1体の敵ごとです。</li></ul><h3 id="s8">ダメージ倍率の表</h3><p>COMBO の倍率（そのターンの何個目の罠か）：</p><div class="table-wrap"><table><thead><tr><th>COMBO</th><th>倍率</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">×1</td></tr><tr><td class="num">2</td><td class="num">×1.5</td></tr><tr><td class="num">3</td><td class="num">×2</td></tr><tr><td class="num">4</td><td class="num">×2.5</td></tr><tr><td class="num">5</td><td class="num">×3</td></tr><tr><td class="num">6</td><td class="num">×3</td></tr></tbody></table></div><p class="note">COMBO は 5 以上でも倍率は ×3 のままです（上限）。</p><p>CHAIN の倍率（何ターン連続か）：</p><div class="table-wrap"><table><thead><tr><th>CHAIN</th><th>倍率</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">×1</td></tr><tr><td class="num">2</td><td class="num">×1.2</td></tr><tr><td class="num">3</td><td class="num">×1.4</td></tr><tr><td class="num">4</td><td class="num">×1.6</td></tr><tr><td class="num">5</td><td class="num">×2</td></tr><tr><td class="num">6</td><td class="num">×2</td></tr></tbody></table></div><p class="note">CHAIN は 5 以上でも倍率は ×2 のままです（上限）。</p><ul><li>防具のスキルで、COMBO の倍率がさらに足されることがあります（最大 +0.2）。</li><li>COMBO と CHAIN は、罠のダメージだけに掛かります。燃焼などのダメージには掛かりません。</li></ul><h3 id="s9">ダメージの計算式</h3><pre class="formula">1つの罠のダメージ ＝ 罠の威力 × 属性の倍率 × COMBO の倍率 × CHAIN の倍率（小数は四捨五入）</pre><ul><li><strong>罠の威力</strong>は、「小・中・大・特大」の4段階が基本です：小 20、中 48、大 100、特大 200。</li><li>そこに、罠のレア度の倍率が掛かります：N は 1、R は 1.1、SR は 1.3、SSR は 1.5、UR は 1.8。</li><li>さらに、レベルが1上がるごとに約5%ずつ強くなります（<a href="../upgrade/index.html">強化表</a>）。</li><li><strong>属性の倍率</strong>：油の敵に火 ×2（さらに燃焼 3 ターン）、濡れた敵に雷 ×1.5（1 ターン麻痺）、凍った敵に物理 ×1.5。燃焼は、1ターンに 3 ダメージです。</li></ul><h3 id="s10">計算例</h3><p>レア度 N・威力「中」・Lv1 の罠が3つ、同じターンに1体の敵に当たる場面です。この敵は、前のターンにも罠にかかっていました（2 CHAIN）。属性の反応と防具のスキルは考えません。</p><ul><li>罠の威力：48（中）× 1（N）＝ 48</li><li>CHAIN は 2 なので、×1.2</li></ul><div class="table-wrap"><table><thead><tr><th>順番</th><th>COMBO</th><th>計算</th><th>ダメージ</th></tr></thead><tbody><tr><td>1つ目</td><td class="num">1</td><td>48 × 1 × 1.2 = 57.6</td><td class="num">58</td></tr><tr><td>2つ目</td><td class="num">2</td><td>48 × 1.5 × 1.2 = 86.4</td><td class="num">86</td></tr><tr><td>3つ目</td><td class="num">3</td><td>48 × 2 × 1.2 = 115.2</td><td class="num">115</td></tr></tbody></table></div><p>合計は <strong>259</strong> です。CHAIN も COMBO もないときは、48 が1回だけです。同じ罠でも、つなげると5倍以上になります。</p><h3 id="s11">画面の表示</h3><ul><li>画面の中央に、2段で出ます。上の段が「○ COMBO」（金色）、下の段が「○ CHAIN」（水色）です。片方だけのときは、その段だけが出ます。</li><li>COMBO が続いたターン（複数の罠が発動したターン）は、敵の下に「TOTAL」と、そのターンに罠で与えたダメージの合計が出ます。</li><li>ミッションの「1回のコンボで○ダメージ」は、このコンボ（CHAIN だけのターンも含む）で、同じ敵に与えた合計ダメージで数えます。</li></ul>
+</main>
+<footer class="site-footer">ver 0.1.0 時点の情報 &middot; <a href="../changelog.html">更新履歴</a></footer>
+</div>
+</body>
+</html>

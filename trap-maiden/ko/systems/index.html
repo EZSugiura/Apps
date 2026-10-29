@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>기본 시스템 | 덫의 소녀 공략 가이드</title>
+<meta name="description" content="덫의 소녀의 턴과 적의 인식, 지형, COMBO·CHAIN 배율표 및 피해 계산 예시.">
+<meta property="og:title" content="기본 시스템 | 덫의 소녀 공략 가이드">
+<meta property="og:description" content="덫의 소녀의 턴과 적의 인식, 지형, COMBO·CHAIN 배율표 및 피해 계산 예시.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="덫의 소녀 공략 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://ezsugiura.github.io/Apps/trap-maiden/ko/systems/index.html">
+<link rel="canonical" href="https://ezsugiura.github.io/Apps/trap-maiden/ko/systems/index.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="기본 시스템 | 덫의 소녀 공략 가이드">
+<meta name="twitter:description" content="덫의 소녀의 턴과 적의 인식, 지형, COMBO·CHAIN 배율표 및 피해 계산 예시.">
+<meta property="og:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/ko.jpg">
+<meta name="twitter:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/ko.jpg">
+<link rel="alternate" hreflang="ja" href="https://ezsugiura.github.io/Apps/trap-maiden/ja/systems/index.html">
+<link rel="alternate" hreflang="en" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="alternate" hreflang="de" href="https://ezsugiura.github.io/Apps/trap-maiden/de/systems/index.html">
+<link rel="alternate" hreflang="es" href="https://ezsugiura.github.io/Apps/trap-maiden/es/systems/index.html">
+<link rel="alternate" hreflang="fr" href="https://ezsugiura.github.io/Apps/trap-maiden/fr/systems/index.html">
+<link rel="alternate" hreflang="id" href="https://ezsugiura.github.io/Apps/trap-maiden/id/systems/index.html">
+<link rel="alternate" hreflang="it" href="https://ezsugiura.github.io/Apps/trap-maiden/it/systems/index.html">
+<link rel="alternate" hreflang="ko" href="https://ezsugiura.github.io/Apps/trap-maiden/ko/systems/index.html">
+<link rel="alternate" hreflang="pl" href="https://ezsugiura.github.io/Apps/trap-maiden/pl/systems/index.html">
+<link rel="alternate" hreflang="pt" href="https://ezsugiura.github.io/Apps/trap-maiden/pt/systems/index.html">
+<link rel="alternate" hreflang="ru" href="https://ezsugiura.github.io/Apps/trap-maiden/ru/systems/index.html">
+<link rel="alternate" hreflang="th" href="https://ezsugiura.github.io/Apps/trap-maiden/th/systems/index.html">
+<link rel="alternate" hreflang="tr" href="https://ezsugiura.github.io/Apps/trap-maiden/tr/systems/index.html">
+<link rel="alternate" hreflang="vi" href="https://ezsugiura.github.io/Apps/trap-maiden/vi/systems/index.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hans/systems/index.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hant/systems/index.html">
+<link rel="alternate" hreflang="x-default" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js" defer></script>
+<script src="../../assets/search.js" defer></script>
+
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.html">덫의 소녀 공략 가이드</a>
+  <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">&#9776; 메뉴</button>
+</header>
+<div class="sidebar" id="site-nav">
+  <a class="brand" href="../index.html">덫의 소녀<br><small>공략 가이드</small></a>
+  <div class="search" hidden data-index="../search-index.json" data-base="../" data-none="검색 결과가 없습니다" data-error="검색 데이터를 불러오지 못했습니다">
+    <input type="search" id="site-search" placeholder="공략 검색 (덫, 적, 층, FAQ...)" aria-label="사이트 검색" autocomplete="off" enterkeyhint="search">
+    <ul class="search-results" id="search-results" role="listbox" hidden></ul>
+  </div>
+  <nav aria-label="메뉴"><a href="../index.html">홈</a><div class="nav-group">초보자용</div><a href="../beginner/daily.html">매일 할 일</a><a href="../beginner/unlocks.html">층별로 해금되는 기능</a><a href="../beginner/first30.html">처음 30층 공략법</a><div class="nav-group">도감·데이터</div><a href="../traps/index.html">덫</a><a href="../armor/index.html">방어구</a><a href="../enemies/index.html">적 도감</a><a href="../gacha/index.html">가챠</a><a href="../upgrade/index.html">강화표</a><div class="nav-group">공략</div><a href="../story/index.html">스토리</a><a href="../cave/index.html">동굴</a><a href="../hard/index.html">하드 모드</a><div class="nav-group">게임 시스템</div><a href="../systems/index.html" class="current" aria-current="page">기본 시스템</a><a href="../house/index.html">릴리의 집</a><a href="../characters/index.html">등장인물</a><a href="../faq/index.html">용어집·FAQ</a><div class="nav-group">도구·기타</div><a href="../tools/combo.html">COMBO 계산기</a><a href="../changelog.html">업데이트 기록</a></nav>
+  
+  <details class="langs"><summary>언어: 한국어</summary><ul class="lang-list"><li><a href="../../ja/systems/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="../../en/systems/index.html" hreflang="en" lang="en">English</a></li><li><a href="../../de/systems/index.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="../../es/systems/index.html" hreflang="es" lang="es">Español</a></li><li><a href="../../fr/systems/index.html" hreflang="fr" lang="fr">Français</a></li><li><a href="../../id/systems/index.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="../../it/systems/index.html" hreflang="it" lang="it">Italiano</a></li><li><a href="../../ko/systems/index.html" hreflang="ko" lang="ko" aria-current="true">한국어</a></li><li><a href="../../pl/systems/index.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="../../pt/systems/index.html" hreflang="pt" lang="pt">Português</a></li><li><a href="../../ru/systems/index.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="../../th/systems/index.html" hreflang="th" lang="th">ไทย</a></li><li><a href="../../tr/systems/index.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../../vi/systems/index.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="../../zh-Hans/systems/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../zh-Hant/systems/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li></ul></details>
+</div>
+<div class="content">
+<main>
+
+<h1>기본 시스템</h1><h2 id="s1">턴과 적의 인식</h2><h3 id="s2">턴</h3><ul><li>릴리가 한 번 행동하면 적도 한 번 행동합니다.</li><li>턴을 소비하는 행동: 한 칸 이동, 덫 설치, 제자리 대기, 아직 발동하지 않은 앞쪽 덫 회수.</li><li>턴을 소비하지 않는 행동: 방향 전환, 맵 둘러보기.</li><li>적마다 속도가 다릅니다. 느림, 보통, 빠름으로 나뉩니다. <a href="../enemies/index.html">적 목록</a>의 &quot;속도&quot; 항목을 참고하세요.</li><li>같은 턴에 발동한 덫은 모두 &quot;COMBO&quot;에 포함됩니다.</li></ul><p>턴 진행 순서:</p><ol><li>릴리의 행동</li><li>릴리가 밟은 덫 발동 처리</li><li>시간제 덫의 카운트다운</li><li>적의 행동 (적이 밟은 덫도 발동 처리)</li><li>상태 이상의 남은 턴 감소</li><li>적을 모두 쓰러뜨리면 출구가 열립니다</li></ol><h3 id="s3">적의 인식</h3><ul><li>적은 릴리를 발견하기 전까지 주변을 배회합니다.</li><li>릴리를 발견하면 최단 경로로 쫓아옵니다. 놓치면 마지막으로 릴리를 본 곳까지 간 뒤 다시 배회합니다.</li><li>일반적인 시야 범위는 6칸입니다. 적마다 다르며, 릴리가 같은 방에 있거나 벽에 막히지 않은 일직선상에 있으면 발견합니다.</li><li>일부 층의 &quot;추적&quot; 적은 처음부터 <strong>릴리의 위치를 알고</strong> 곧바로 다가옵니다. 층별 적 표의 &quot;인식&quot; 항목에서 확인할 수 있습니다.</li><li>일부 층에서는 도망치는 적 (토끼 등), 제자리를 지키는 적, 보스가 시야로 릴리를 발견합니다.</li><li>연막탄 등에 눈이 먼 적은 아무것도 보지 못합니다.</li><li>유인 덫 (딸랑이, 먹이 주머니 등)이 있으면 적은 먼저 그 덫으로 향합니다. 우선순위: 상태 이상 &gt; 유인·먹이 &gt; 미끼 &gt; 릴리.</li><li>적은 보통 덫을 피하지 않습니다. 덫을 감지하는 적은 주변 덫을 피합니다.</li><li>수면이나 구속 같은 상태 이상은 보스에게 지속 시간이 50%로 줄어듭니다.</li></ul><h3 id="s4">적 레벨</h3><ul><li>적 레벨이 1 오를 때마다 HP가 18% 증가합니다.</li><li>적의 공격력은 레벨에 따라 달라지지 않습니다. 층마다 정해져 있습니다.</li></ul><h3 id="s5">릴리의 HP</h3><ul><li>릴리의 최대 HP는 기본 120에 착용한 방어구의 HP를 더한 값입니다.</li><li>HP는 시간이 지나도 회복되지 않습니다. 광고를 보거나 방어구 스킬로 회복하세요.</li></ul><h2 id="terrain">지형</h2><p>맵에는 바위벽, 낮은 벽, 물웅덩이가 있습니다. 어느 곳에도 <strong>일반 덫을 설치할 수 없습니다</strong>.</p><div class="table-wrap"><table><thead><tr><th>지형</th><th>릴리</th><th>지상 적</th><th>비행 적</th><th>시야</th></tr></thead><tbody><tr><td>바위벽</td><td>통과 불가</td><td>통과 불가</td><td>통과 불가</td><td>시야를 막습니다. 직선형 덫과 휩쓸기 공격도 막습니다.</td></tr><tr><td>낮은 벽</td><td>통과 불가</td><td>통과 불가 (점프하는 적은 넘습니다)</td><td>넘을 수 있음</td><td>막지 않음</td></tr><tr><td>물웅덩이</td><td>통과 불가</td><td>진입 불가 (물 위를 이동하거나 점프하는 적은 가능)</td><td>진입 가능</td><td>막지 않음</td></tr></tbody></table></div><ul><li><strong>바위벽</strong>: 누구도 통과할 수 없습니다. 뒤에 숨을 수도 있습니다.</li><li><strong>낮은 벽</strong>: 지상 적만 막습니다. 넘을 수 있는 적: <a href="../enemies/E04.html">겁쟁이 토끼</a>, <a href="../enemies/E05.html">꼬마 쥐</a>, <a href="../enemies/E06.html">뜀뛰는 개구리</a>.</li><li><strong>물웅덩이</strong>: 물 위를 이동할 수 있는 적: <a href="../enemies/E02.html">푸른빛 슬라임</a>, <a href="../enemies/E06.html">뜀뛰는 개구리</a>.</li><li>방어구 스킬 중에는 릴리가 물을 건너거나 낮은 벽을 넘게 해주는 것이 있습니다.</li><li>물 위에만 설치할 수 있는 덫도 있습니다.</li></ul><h2 id="combo">COMBO와 CHAIN</h2><p>큰 피해를 주는 두 효과는 <strong>COMBO</strong>와 <strong>CHAIN</strong>입니다. <strong>두 효과는 동시에 발동할 수 있습니다.</strong></p><h3 id="s6">COMBO (같은 턴의 덫)</h3><ul><li><strong>한 턴 안에 발동한 덫의 순서</strong>입니다. 첫 번째, 두 번째, 세 번째 순으로 셉니다.</li><li>속성 반응 (기름에 불, 젖은 적에게 번개, 얼어붙은 적에게 물리)이 발생해도 COMBO 수가 올라갑니다.</li><li>두 번째 덫부터 피해가 증가합니다. 아래 표를 참고하세요.</li><li>릴리가 설치했든 적이 밟았든, 그 턴에 발동한 덫은 모두 셉니다.</li></ul><h3 id="s7">CHAIN (연속 턴)</h3><ul><li><strong>같은 적이 끊기지 않고 다음 턴에도 덫에 걸리면</strong> CHAIN이 이어집니다.</li><li>첫 턴은 1입니다. 다음 턴에도 다시 걸리면 2, 그 다음은 3으로 올라갑니다.</li><li>적이 덫에 묶여 행동할 수 없는 턴 (구속, 빙결, 마비, 수면, 기절 등)에는 CHAIN이 끊기지 않지만 수치는 오르지 않습니다.</li><li>덫에 맞지 않은 턴이 한 번이라도 있으면 1로 초기화됩니다.</li><li>적마다 따로 계산합니다.</li></ul><h3 id="s8">피해 배율표</h3><p>COMBO 배율 (해당 턴에 발동한 덫의 순서):</p><div class="table-wrap"><table><thead><tr><th>COMBO</th><th>배율</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">x1</td></tr><tr><td class="num">2</td><td class="num">x1.5</td></tr><tr><td class="num">3</td><td class="num">x2</td></tr><tr><td class="num">4</td><td class="num">x2.5</td></tr><tr><td class="num">5</td><td class="num">x3</td></tr><tr><td class="num">6</td><td class="num">x3</td></tr></tbody></table></div><p class="note">5 COMBO부터 배율은 x3으로 고정됩니다 (상한).</p><p>CHAIN 배율 (연속으로 덫에 걸린 턴 수):</p><div class="table-wrap"><table><thead><tr><th>CHAIN</th><th>배율</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">x1</td></tr><tr><td class="num">2</td><td class="num">x1.2</td></tr><tr><td class="num">3</td><td class="num">x1.4</td></tr><tr><td class="num">4</td><td class="num">x1.6</td></tr><tr><td class="num">5</td><td class="num">x2</td></tr><tr><td class="num">6</td><td class="num">x2</td></tr></tbody></table></div><p class="note">5 CHAIN부터 배율은 x2으로 고정됩니다 (상한).</p><ul><li>방어구 스킬로 COMBO 배율을 최대 +0.2까지 높일 수 있습니다.</li><li>COMBO와 CHAIN은 덫 피해에만 적용되며 화상 등의 피해에는 적용되지 않습니다.</li></ul><h3 id="s9">피해 계산식</h3><pre class="formula">덫 하나의 피해 = 덫 위력 x 속성 배율 x COMBO 배율 x CHAIN 배율 (반올림)</pre><ul><li><strong>덫 위력</strong>은 기본 네 단계입니다: 소 20, 중 48, 대 100, 특대 200.</li><li>덫의 희귀도에 따라 위력이 배가됩니다: N x1, R x1.1, SR x1.3, SSR x1.5, UR x1.8.</li><li>레벨이 오를 때마다 위력이 약 5% 증가합니다 (<a href="../upgrade/index.html">강화 표</a> 참고).</li><li><strong>속성 배율</strong>: 기름에 젖은 적에게 불 x2 (화상 3턴), 젖은 적에게 번개 x1.5 (마비 1턴), 얼어붙은 적에게 물리 x1.5. 화상은 턴마다 3 피해를 줍니다.</li></ul><h3 id="s10">계산 예시</h3><p>희귀도 N, 위력 중, Lv1 덫 3개가 같은 턴에 적 하나를 공격한다고 합시다. 이 적은 직전 턴에도 덫에 걸렸습니다 (CHAIN 2). 속성 반응과 방어구 스킬은 제외합니다.</p><ul><li>덫 위력: 48 (중) x 1 (N) = 48</li><li>CHAIN은 2이므로 x1.2</li></ul><div class="table-wrap"><table><thead><tr><th>순서</th><th>COMBO</th><th>계산식</th><th>피해</th></tr></thead><tbody><tr><td>덫 1</td><td class="num">1</td><td>48 × 1 × 1.2 = 57.6</td><td class="num">58</td></tr><tr><td>덫 2</td><td class="num">2</td><td>48 × 1.5 × 1.2 = 86.4</td><td class="num">86</td></tr><tr><td>덫 3</td><td class="num">3</td><td>48 × 2 × 1.2 = 115.2</td><td class="num">115</td></tr></tbody></table></div><p>합계는 <strong>259</strong>입니다. CHAIN이나 COMBO가 없으면 같은 덫은 한 번에 48 피해를 줍니다. 연계하면 같은 덫의 피해가 5배 이상이 됩니다.</p><h3 id="s11">화면 표시</h3><ul><li>화면 중앙에는 &quot;n COMBO&quot; (금색)가 위에, &quot;n CHAIN&quot; (하늘색)이 아래에 표시됩니다. 하나만 발동하면 해당 줄만 보입니다.</li><li>한 턴에 여러 덫이 발동하면 적 아래에 &quot;TOTAL&quot;과 그 턴의 덫 피해가 표시됩니다.</li><li>&quot;한 번의 COMBO로 N 피해 주기&quot; 미션은 해당 COMBO에서 같은 적에게 준 피해의 합계를 셉니다 (CHAIN만 발동한 턴도 포함).</li></ul>
+</main>
+<footer class="site-footer">ver 0.1.0 기준 정보 &middot; <a href="../changelog.html">업데이트 기록</a></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>基本系統 | 陷阱少女 攻略指南</title>
+<meta name="description" content="了解《陷阱少女》中的回合、敵人察覺、地形、COMBO與CHAIN倍率，以及傷害計算範例。">
+<meta property="og:title" content="基本系統 | 陷阱少女 攻略指南">
+<meta property="og:description" content="了解《陷阱少女》中的回合、敵人察覺、地形、COMBO與CHAIN倍率，以及傷害計算範例。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="陷阱少女 攻略指南">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hant/systems/index.html">
+<link rel="canonical" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hant/systems/index.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="基本系統 | 陷阱少女 攻略指南">
+<meta name="twitter:description" content="了解《陷阱少女》中的回合、敵人察覺、地形、COMBO與CHAIN倍率，以及傷害計算範例。">
+<meta property="og:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/zh-Hant.jpg">
+<meta name="twitter:image" content="https://ezsugiura.github.io/Apps/trap-maiden/img/ogp/zh-Hant.jpg">
+<link rel="alternate" hreflang="ja" href="https://ezsugiura.github.io/Apps/trap-maiden/ja/systems/index.html">
+<link rel="alternate" hreflang="en" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="alternate" hreflang="de" href="https://ezsugiura.github.io/Apps/trap-maiden/de/systems/index.html">
+<link rel="alternate" hreflang="es" href="https://ezsugiura.github.io/Apps/trap-maiden/es/systems/index.html">
+<link rel="alternate" hreflang="fr" href="https://ezsugiura.github.io/Apps/trap-maiden/fr/systems/index.html">
+<link rel="alternate" hreflang="id" href="https://ezsugiura.github.io/Apps/trap-maiden/id/systems/index.html">
+<link rel="alternate" hreflang="it" href="https://ezsugiura.github.io/Apps/trap-maiden/it/systems/index.html">
+<link rel="alternate" hreflang="ko" href="https://ezsugiura.github.io/Apps/trap-maiden/ko/systems/index.html">
+<link rel="alternate" hreflang="pl" href="https://ezsugiura.github.io/Apps/trap-maiden/pl/systems/index.html">
+<link rel="alternate" hreflang="pt" href="https://ezsugiura.github.io/Apps/trap-maiden/pt/systems/index.html">
+<link rel="alternate" hreflang="ru" href="https://ezsugiura.github.io/Apps/trap-maiden/ru/systems/index.html">
+<link rel="alternate" hreflang="th" href="https://ezsugiura.github.io/Apps/trap-maiden/th/systems/index.html">
+<link rel="alternate" hreflang="tr" href="https://ezsugiura.github.io/Apps/trap-maiden/tr/systems/index.html">
+<link rel="alternate" hreflang="vi" href="https://ezsugiura.github.io/Apps/trap-maiden/vi/systems/index.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hans/systems/index.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://ezsugiura.github.io/Apps/trap-maiden/zh-Hant/systems/index.html">
+<link rel="alternate" hreflang="x-default" href="https://ezsugiura.github.io/Apps/trap-maiden/en/systems/index.html">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js" defer></script>
+<script src="../../assets/search.js" defer></script>
+
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.html">陷阱少女 攻略指南</a>
+  <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">&#9776; 選單</button>
+</header>
+<div class="sidebar" id="site-nav">
+  <a class="brand" href="../index.html">陷阱少女<br><small>攻略指南</small></a>
+  <div class="search" hidden data-index="../search-index.json" data-base="../" data-none="沒有搜尋結果" data-error="無法載入搜尋資料">
+    <input type="search" id="site-search" placeholder="搜尋攻略（陷阱、敵人、樓層、FAQ…）" aria-label="站內搜尋" autocomplete="off" enterkeyhint="search">
+    <ul class="search-results" id="search-results" role="listbox" hidden></ul>
+  </div>
+  <nav aria-label="選單"><a href="../index.html">首頁</a><div class="nav-group">新手向</div><a href="../beginner/daily.html">每日要做的事</a><a href="../beginner/unlocks.html">依層數解鎖的功能</a><a href="../beginner/first30.html">前30層的進行方式</a><div class="nav-group">圖鑑・資料</div><a href="../traps/index.html">陷阱</a><a href="../armor/index.html">護具</a><a href="../enemies/index.html">敵人圖鑑</a><a href="../gacha/index.html">Gacha</a><a href="../upgrade/index.html">強化表</a><div class="nav-group">攻略</div><a href="../story/index.html">劇情</a><a href="../cave/index.html">特訓場洞窟</a><a href="../hard/index.html">困難模式</a><div class="nav-group">遊戲機制</div><a href="../systems/index.html" class="current" aria-current="page">基本系統</a><a href="../house/index.html">莉莉的家</a><a href="../characters/index.html">登場人物</a><a href="../faq/index.html">名詞解釋・FAQ</a><div class="nav-group">工具與其他</div><a href="../tools/combo.html">COMBO計算器</a><a href="../changelog.html">更新紀錄</a></nav>
+  
+  <details class="langs"><summary>語言: 繁體中文</summary><ul class="lang-list"><li><a href="../../ja/systems/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="../../en/systems/index.html" hreflang="en" lang="en">English</a></li><li><a href="../../de/systems/index.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="../../es/systems/index.html" hreflang="es" lang="es">Español</a></li><li><a href="../../fr/systems/index.html" hreflang="fr" lang="fr">Français</a></li><li><a href="../../id/systems/index.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="../../it/systems/index.html" hreflang="it" lang="it">Italiano</a></li><li><a href="../../ko/systems/index.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="../../pl/systems/index.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="../../pt/systems/index.html" hreflang="pt" lang="pt">Português</a></li><li><a href="../../ru/systems/index.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="../../th/systems/index.html" hreflang="th" lang="th">ไทย</a></li><li><a href="../../tr/systems/index.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="../../vi/systems/index.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="../../zh-Hans/systems/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../zh-Hant/systems/index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li></ul></details>
+</div>
+<div class="content">
+<main>
+
+<h1>基本系統</h1><h2 id="s1">回合與敵人察覺</h2><h3 id="s2">回合</h3><ul><li>莉莉每行動一次，敵人就行動一次。</li><li>會消耗回合的行動：移動一格、設置陷阱、原地等待、撿起陷阱（前方尚未觸發的陷阱）。</li><li>不消耗回合的行動：轉向、查看地圖。</li><li>敵人的速度各不相同，有慢速、一般、快速（請看<a href="../enemies/index.html">敵人</a>頁面的「速度」）。</li><li>同一回合觸發的陷阱都會計入「COMBO」。</li></ul><p>回合的行動順序：</p><ol><li>莉莉行動</li><li>結算莉莉踩到的陷阱</li><li>計時陷阱倒數</li><li>敵人行動（敵人踩到的陷阱也會結算）</li><li>狀態效果的剩餘回合數減少</li><li>所有敵人都被打倒後，出口開啟</li></ol><h3 id="s3">敵人察覺</h3><ul><li>敵人尚未發現莉莉時，會在附近徘徊。</li><li>發現莉莉後，會沿最短路徑追上她。若失去目標，會前往最後看見她的位置，再恢復徘徊。</li><li>一般視野範圍為 6 格。各敵人有所不同；莉莉在同一個房間，或在沒有牆壁阻擋的直線上時，敵人就會發現她。</li><li>部分樓層的「追擊」敵人<strong>從一開始就知道莉莉的位置</strong>，會立刻追過來。各層敵人表中的「察覺方式」會標明。</li><li>部分樓層的逃跑型敵人（兔子等）、固定守衛與Boss會靠視野察覺。</li><li>被煙霧彈等效果弄盲的敵人什麼也看不見。</li><li>有引誘陷阱（鳴子、肉袋等）時，敵人會先前往陷阱。優先順序：狀態效果 &gt; 引誘或食物 &gt; 假人 &gt; 莉莉。</li><li>一般敵人不會躲避陷阱。能察覺陷阱的敵人會避開附近的陷阱。</li><li>睡眠、束縛等狀態效果在Boss身上只持續一般時間的 50%。</li></ul><h3 id="s4">敵人等級</h3><ul><li>敵人每提升1級，HP增加 18%。</li><li>敵人的攻擊傷害不會隨等級改變，而是依樓層設定。</li></ul><h3 id="s5">莉莉的HP</h3><ul><li>最大HP是初始值 120，再加上穿戴護具增加的HP。</li><li>HP不會隨時間恢復。可以看廣告或使用護具技能恢復。</li></ul><h2 id="terrain">地形</h2><p>地圖有岩壁、矮牆與水窪。<strong>普通陷阱無法設置在這些地形上。</strong></p><div class="table-wrap"><table><thead><tr><th>地形</th><th>莉莉</th><th>地面敵人</th><th>飛行敵人</th><th>視線</th></tr></thead><tbody><tr><td>岩壁</td><td>無法通過</td><td>無法通過</td><td>無法通過</td><td>會阻擋視線，也會擋住直線陷阱與橫掃攻擊</td></tr><tr><td>矮牆</td><td>無法通過</td><td>無法通過（會跳躍的敵人可越過）</td><td>可越過</td><td>不會阻擋</td></tr><tr><td>水窪</td><td>無法通過</td><td>無法進入（可在水中移動或會跳躍的敵人除外）</td><td>可進入</td><td>不會阻擋</td></tr></tbody></table></div><ul><li><strong>岩壁</strong>：任何人都不能通過，也能躲在後面。</li><li><strong>矮牆</strong>：只會擋住地面敵人。能越過矮牆的敵人：<a href="../enemies/E04.html">膽小兔</a>、<a href="../enemies/E05.html">小鼠</a>、<a href="../enemies/E06.html">跳跳蛙</a>。</li><li><strong>水窪</strong>：能在水中移動的敵人：<a href="../enemies/E02.html">藍光史萊姆</a>、<a href="../enemies/E06.html">跳跳蛙</a>。</li><li>部分護具技能可讓莉莉涉水或翻越矮牆。</li><li>部分陷阱只能設置在水中。</li></ul><h2 id="combo">COMBO與CHAIN</h2><p>有兩種機制可以造成大量傷害：<strong>COMBO</strong>與<strong>CHAIN</strong>。<strong>兩者可以同時觸發。</strong></p><h3 id="s6">COMBO（同回合的陷阱）</h3><ul><li><strong>同一回合內觸發的陷阱數量</strong>：第1個、第2個、第3個，以此類推。</li><li>元素反應（油上的敵人遇火、潮濕遇雷、冰凍遇物理攻擊）也會增加COMBO。</li><li>從第2個陷阱開始，傷害會增加。倍率請看下方表格。</li><li>該回合觸發的所有陷阱都會計入，不論是莉莉設置的，還是敵人踩到的。</li></ul><h3 id="s7">CHAIN（連續回合）</h3><ul><li><strong>同一個敵人連續兩回合都被陷阱擊中，中間沒有中斷</strong>就會累積CHAIN。</li><li>第1回合為1；下一回合再次擊中就變成2，再下一回合為3，以此類推。</li><li>敵人被陷阱定身、無法行動的回合（束縛、冰凍、麻痺、睡眠、暈眩等）不會中斷CHAIN，但數值也不會增加。</li><li>只要有一回合沒有被陷阱擊中，CHAIN就會重設為1。</li><li>每個敵人分別計算。</li></ul><h3 id="s8">傷害倍率表</h3><p>COMBO倍率（該回合的第幾個陷阱）：</p><div class="table-wrap"><table><thead><tr><th>COMBO</th><th>倍率</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">x1</td></tr><tr><td class="num">2</td><td class="num">x1.5</td></tr><tr><td class="num">3</td><td class="num">x2</td></tr><tr><td class="num">4</td><td class="num">x2.5</td></tr><tr><td class="num">5</td><td class="num">x3</td></tr><tr><td class="num">6</td><td class="num">x3</td></tr></tbody></table></div><p class="note">COMBO達到 5 次後，倍率固定為 x3（上限）。</p><p>CHAIN倍率（連續命中的回合數）：</p><div class="table-wrap"><table><thead><tr><th>CHAIN</th><th>倍率</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">x1</td></tr><tr><td class="num">2</td><td class="num">x1.2</td></tr><tr><td class="num">3</td><td class="num">x1.4</td></tr><tr><td class="num">4</td><td class="num">x1.6</td></tr><tr><td class="num">5</td><td class="num">x2</td></tr><tr><td class="num">6</td><td class="num">x2</td></tr></tbody></table></div><p class="note">CHAIN達到 5 次後，倍率固定為 x2（上限）。</p><ul><li>部分護具技能會增加COMBO倍率（最多 +0.2）。</li><li>COMBO和CHAIN只套用於陷阱傷害，不會套用在燃燒等持續傷害上。</li></ul><h3 id="s9">傷害公式</h3><pre class="formula">單個陷阱的傷害 = 陷阱威力 x 元素倍率 x COMBO倍率 x CHAIN倍率（四捨五入）</pre><ul><li><strong>陷阱威力</strong>有4種基本級別：小 20、中 48、大 100、特大 200。</li><li>陷阱稀有度會再乘上倍率：N x1、R x1.1、SR x1.3、SSR x1.5、UR x1.8。</li><li>每升1級大約增加 5%（請看<a href="../upgrade/index.html">強化表</a>）。</li><li><strong>元素倍率</strong>：火攻擊塗油敵人 x2（燃燒 3 回合）、雷攻擊潮濕敵人 x1.5（麻痺 1 回合）、物理攻擊冰凍敵人 x1.5。燃燒每回合造成 3 傷害。</li></ul><h3 id="s10">計算範例</h3><p>假設 3 個N級、中威力、Lv1的陷阱在同一回合命中一個敵人。該敵人在前一回合也被陷阱擊中（CHAIN 2）。不計入元素反應與護具技能。</p><ul><li>陷阱威力：48（中）x 1（N）= 48</li><li>CHAIN為2，因此倍率為x1.2</li></ul><div class="table-wrap"><table><thead><tr><th>順序</th><th>COMBO</th><th>計算</th><th>傷害</th></tr></thead><tbody><tr><td>陷阱1</td><td class="num">1</td><td>48 × 1 × 1.2 = 57.6</td><td class="num">58</td></tr><tr><td>陷阱2</td><td class="num">2</td><td>48 × 1.5 × 1.2 = 86.4</td><td class="num">86</td></tr><tr><td>陷阱3</td><td class="num">3</td><td>48 × 2 × 1.2 = 115.2</td><td class="num">115</td></tr></tbody></table></div><p>總傷害為<strong>259</strong>。沒有CHAIN和COMBO時，同一個陷阱只會造成48傷害。連續命中時，傷害至少是5倍。</p><h3 id="s11">畫面顯示</h3><ul><li>畫面中央會出現兩行文字：上方金色的「n COMBO」，下方淺藍色的「n CHAIN」。若只觸發一種，只會顯示該行。</li><li>同一回合觸發多個陷阱時，敵人下方會顯示「TOTAL」和該回合陷阱造成的傷害。</li><li>「單次COMBO造成N傷害」任務會計算該COMBO中對同一敵人造成的總傷害（只有CHAIN的回合也會計入）。</li></ul>
+</main>
+<footer class="site-footer">截至 ver 0.1.0 的資訊 &middot; <a href="../changelog.html">更新紀錄</a></footer>
+</div>
+</body>
+</html>
