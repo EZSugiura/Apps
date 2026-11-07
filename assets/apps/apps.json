@@ -607,6 +607,167 @@
       "playUrl": "https://play.google.com/store/apps/details?id=com.nekogames.nekopunch",
       "privacyUrl": "https://ezsugiura.github.io/Apps/nekopanch_index.html",
       "keywords": ["ネコパンチ", "反射神経ゲーム", "猫じゃらし", "ミニゲーム", "反応速度ゲーム", "隙間時間ゲーム", "猫ゲーム", "無料ゲーム"]
+    },
+    {
+      "id": "karaokemike",
+      "name": "My音源カラオケ採点",
+      "package": "com.ezcompany.karaokemike",
+      "category": "ライフスタイル",
+      "shortDescription": "自分の音楽ファイルで歌えるカラオケ採点アプリ。オンデバイスAIがボーカルと伴奏を自動分離。完全無料。",
+      "description": [
+        "自分のスマホに入っている音楽ファイルがそのままカラオケになる！「My音源カラオケ採点」は、お手持ちの曲からAIがボーカルと伴奏を分離し、音程バーを見ながら歌って、歌い終わったら本格的な項目別採点まで楽しめるカラオケアプリです。定期購読不要で完全無料。",
+        "音源分離・音程解析・採点はすべてスマホ内（オンデバイス）で完結するためプライバシーも安心。キー変更（±6半音）、メトロノーム、AB間ループ、自分の歌声を伴奏と重ねて聴き直せる振り返り再生など充実した練習機能を搭載しています。"
+      ],
+      "features": [
+        "手持ちの音楽ファイルからAIがボーカルと伴奏を自動分離",
+        "リアルタイム音程バー表示＆キー変更（±6半音）・テンポ解析",
+        "音程・安定性・抑揚・ビブラートなどの本格100点採点",
+        "録音した歌声とお手本を聴き比べられる振り返り再生",
+        "スマホ内完結のオンデバイス処理で安心＆定期購読なし完全無料"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/JtkK9xqHq1l6Hrwxye52e86FdTkldJBV01npfszke3VLljLGCaNupC423Dgj_uV2HKizIwZS1cO0e0GoqtUw=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/y7PbOteUyueE_JtKYXsvloeHW27eT8gDOZw5PuKH7fPydvc6pSpi49cMI-Obr2tSQSU-6hHaed3T9B3fM_bySg=w1024-h576",
+        "https://play-lh.googleusercontent.com/IEjXTG3X8ylGSJjwfNZLoXZakNQBQ_QgoaGXUJzlaT36n8zsdFp2c-lkp208ZiXjn3PlMZiG8rG9YEgABqciMT4=w1024-h576",
+        "https://play-lh.googleusercontent.com/zdI06RWQZvrtLJ6E2HyNxubHNVSaM1TbQ7LrqPHUZINnppT8FW5UJQpBP7m-KA-IDR1TgYk0olLVtS4O9a4y=w1024-h576",
+        "https://play-lh.googleusercontent.com/bbcErpovD8O0-5mYIOnucXhom9dSOWOHOiq3WG_tOgVAJBQwzcYImLi2bq6nV-bF307W_MDiIYar1A_-WO9dfAE=w1024-h576",
+        "https://play-lh.googleusercontent.com/VZmNSiPXOPf7FtbPnlDyczXWhP0cB7Hv9Utoq7EOnLDDedfi0nf7g3sprBOCqP6unn9azYtnyDXAv7bglZeB=w1024-h576",
+        "https://play-lh.googleusercontent.com/c4yosvPsEnJ-61bHvJ1uGN7GsjJ28fBTsIAuGZvQnoRCsUnMAosFybRprsFCcwOydnp1y2fo8KUv5-UR90DF=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "100+",
+      "updated": "2026-08-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.karaokemike",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/karaokemike_privacy_policy.html",
+      "keywords": ["カラオケ採点", "音源分離", "ボーカル抽出", "カラオケ練習", "音程バー", "歌うま", "ボイトレ", "無料カラオケ"]
+    },
+    {
+      "id": "cameralogger",
+      "name": "カメラロガー",
+      "package": "com.ezcompany.cameralogger",
+      "category": "ツール",
+      "shortDescription": "電力計・温度計などのデジタル表示をAIが自動認識し、数値をCSV記録・グラフ化する計測ロガー。",
+      "description": [
+        "「カメラロガー」は、電力計・温度調節器・体重計などのデジタル数字表示（7セグメント表示）を、スマートフォンのカメラとAIでそのまま読み取り、自動で記録できる計測ロガーアプリです。",
+        "実験や現場測定での手作業データ転記の手間を解消。複数の表示部（SP/PV等）を同時に数値化してその場でグラフ表示し、CSV形式で保存・共有できます。"
+      ],
+      "features": [
+        "カメラをかざすだけでAIがデジタル数値を自動認識",
+        "複数の表示部（SP/PVなど）を同時に数値化・自動記録",
+        "記録間隔は1秒から選択可能＆タイマーによる自動開始・停止",
+        "手ぶれ補正機能で手持ち撮影でも安定した計測が可能",
+        "記録結果をその場でグラフ表示＆CSV形式で保存・共有"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/tuB5opHocs461MWHallx1dJ8VyM1G9sC4WRitKYpon_Ri5yvRG-cxtN3PbNx3hp-AoMfNcZWI-t0TnltWAgejQ=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/UQ19JnHGBjOjF9PSgHKwGUgq1q84dxtpuXAPaVRJc15LQ1QTnrUwakYUKSHBxsMga8htLiWl7Hkz4Rjh1XIuoQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/q2n1mTe84Vs_WSCdq7WQ0TQTsj4UG_Agy_z91X7rGajXr7-IjuOepEhW9PxxN42-4eF-w0Ff7KI2cdqo2NwT_g=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-09-06",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.cameralogger",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/cameralogger-privacy-policy.html",
+      "keywords": ["データロガー", "7セグ認識", "AIOCR", "計器読み取り", "CSV出力", "実験記録", "数値認識", "自動計測"]
+    },
+    {
+      "id": "aidiary",
+      "name": "AIが書く私の日記",
+      "package": "com.ezcompany.aidiary",
+      "category": "ライフスタイル",
+      "shortDescription": "何も書かなくてもAIがその日を日記に。行動・天気からオンデバイスAIが物語風に自動生成する日記アプリ。",
+      "description": [
+        "『AIが書く私の日記』は、あなたが意識して記録しなくても、スマホに残る行動の痕跡（訪れた場所、移動、使ったアプリ、共有ページ）とその日の天気から、AIが一日の出来事を物語のような文章にまとめてくれる日記アプリです。",
+        "文章生成はすべてスマホ内のオンデバイスAIで完結するため、行動データや日記が外部サーバーに送信される心配はありません。ポジティブ・ネガティブ・感謝風など6つの感情トーンから選んで、同じ一日を多彩な読み口で楽しめます。"
+      ],
+      "features": [
+        "位置情報・移動・利用アプリ・天気からAIが日記を自動生成",
+        "スマホ内完結のオンデバイスAIで安心のプライバシー保護",
+        "ポジティブや感謝風など6つの感情トーンから選べる表現スタイル",
+        "移動経路マップやタイムラインで一日の行動をまるごと振り返り",
+        "生成された日記は自由に編集・追記・再生成が可能"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/Ujantgvn0E15rFzC7MYWE5IzeuRjt3v7CY9Cz2lF_Rj-8OF6qBy_VYwolmn-AS7r2BDL4YO_MWg8Q9sHR0ak4A=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/oem4c7JSTJmWoo8wWNozekBjt_gig-2ClGomDt-Jd-VKZgnlVsNv-sosR558ETdaw0pO5yc3dDrpDIwHNDm9kA=w1024-h576",
+        "https://play-lh.googleusercontent.com/RHF5GrEr589SDO3nrQCut3SBL8twpFGE2doCqeoJiS-vmpCb8u9mFZrYcWbFMRubNtpaj2alir18jI5dSbqvN2s=w1024-h576",
+        "https://play-lh.googleusercontent.com/wdZx1V-399ReuQu0rHop08oRQbDsLZFOLqR-dUgtRobtylUxTcWPO7ch5lE9yXqZ5Eeqpk86z007mLQClqqY=w1024-h576",
+        "https://play-lh.googleusercontent.com/ZVZQJHWQ4QzIhbZVbmet8QsUbbATztP90B2n2VtZ9pFN6vmO9z4rNi9M1w_T2FEdngrcxidRFRNlSgHElZg1K80=w1024-h576",
+        "https://play-lh.googleusercontent.com/QCq4b-vqtiKmX6IwuCE2f5wY4P5r4s3wK-qxBRpF6BgoXlUwSrqV_tWCEcKL1bBKy_vJIR-P2TqMK5O-HyCtSg=w1024-h576",
+        "https://play-lh.googleusercontent.com/Rj4px9yDzREkEsZc5MiveYAA4tCR9q5dZA_m9jO0FdD_IoYRp23W2FmGVHFPtfz8AgqwsB3JG5AzZoZWQqrp=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-09-15",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.aidiary",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/ai-diary-privacy-policy.html",
+      "keywords": ["AI日記", "自動日記", "ライフログ", "オンデバイスAI", "行動記録", "タイムライン", "日記アプリ", "三日坊主解消"]
+    },
+    {
+      "id": "noisemapper",
+      "name": "騒音分布実測アプリ",
+      "package": "com.ezcompany.noisemapper",
+      "category": "業務効率化",
+      "shortDescription": "スマホを持って歩くだけでAR測位と騒音計測。フロアマップ上に騒音レベルのヒートマップを作成し、音環境を見える化します。",
+      "description": [
+        "NoiseMapperは、スマートフォン1台で室内の騒音分布をヒートマップとして可視化できる測定アプリです。ARによる屋内位置推定とマイクによる騒音レベル測定を組み合わせることで、専用機材を使わずにオフィスや工場、住宅、店舗などの「音環境のムラ」を手軽に調査できます。",
+        "床を映しながら歩くだけで、直近1秒間の等価騒音レベル（LAeq）を自動記録。IDW（逆距離加重法）補間により、歩いていない場所も含めてエリア全体の滑らかなヒートマップを生成します。間取り図画像を背景に重ね合わせることも可能です。"
+      ],
+      "features": [
+        "ARCoreによる高精度な屋内位置推定と歩行軌跡トラッキング",
+        "1秒ごとの等価騒音レベル（LAeq）自動記録＆ヒートマップ生成",
+        "間取り図の画像を取り込んで直感的なマップを作成可能",
+        "気になる場所を10秒でサッと測るスポット測定機能",
+        "市販の騒音計と数値を合わせられる1点キャリブレーション"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/CujO4aw6ist6IQQZzUjXprogAX8AJqsKJpp7AR7MBHF88mAWZQY-7ArrwsmNmTg7-2rgt83MIwc7eDAi7Vl4wA=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/o6klzVUwt1d2i-E3YmDv6z25ngZrOWK7cAUl5DlX2FG_IA27QsO3MGgFVHhQOh67H2RJvhb0NvAKfJ4sPQwM=w1024-h576",
+        "https://play-lh.googleusercontent.com/EKpIOJQlDUKDYRc_9rOiJMDoQ9Gpxd0V86VRZhvea3QCsYaPIXrdDIwLXdnlo3uAQRsZznMqt43LHnlYm6UHV8Y=w1024-h576",
+        "https://play-lh.googleusercontent.com/hjGRj0Bu5TJjgFPTuq8pms6CrD3vjSgcHye-FSDQWz4w2ClndTe8IoHprggen7_G3kT0rV6ugcjvo_GK1NVRhw=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "10+",
+      "updated": "2026-09-16",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.noisemapper",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/privacy_policy_noisemapper.html",
+      "keywords": ["騒音計", "騒音測定", "ヒートマップ", "AR測定", "音環境", "デシベル", "防音対策", "労働環境改善"]
+    },
+    {
+      "id": "trap_maiden",
+      "name": "罠師の娘",
+      "package": "com.ezcompany.trap_maiden",
+      "category": "ゲーム",
+      "shortDescription": "攻撃できない少女が、罠と知恵で地下120階へ。妹を探す戦略ローグライク。",
+      "description": [
+        "『罠師の娘』は、攻撃できない少女リリィが、科学者の父が残した設計図と罠を駆使して、沈んでしまった村と離ればなれになった妹を探す縦画面のターン制戦略ローグライクです。",
+        "リリィ自身は敵を直接攻撃できません。頼れるのは持ち込んだ罠と、敵の動きを読む知恵。罠を置き、待ち、誘い込み、仕掛けた場所へ敵を導く――一手ずつ考えて突破する読み合いが攻略の醍醐味です。",
+        "全120階・12章におよぶ地下ダンジョン、連鎖する罠のコンボ、罠や防具の収集・育成、拠点の村での家族との再会など、奥深いやりこみ要素が詰まっています。"
+      ],
+      "features": [
+        "攻撃不可！罠と誘導だけで敵を倒す新感覚ローグライク",
+        "罠を連鎖させて大ダメージを叩き出すコンボシステム",
+        "全120階・12章の多彩な地下ダンジョンと重厚な物語",
+        "手に入れた罠や防具を強化して自分だけの戦術を構築",
+        "村で家族と再会し、部屋を飾って過ごす拠点要素"
+      ],
+      "icon": "https://play-lh.googleusercontent.com/O8uc4eyu7keAtJn5AFT-XBSBnaQtDyxGHmb994Q8VhRznNO46xPTPg1tqX3UVoaTI90auYrPShG5inXOFlvA=w512-h512",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/ANTBrVNX3WUk2Ghjcf74Y9lPvpsijxrxGA774Rcbp4dPs2Uu_6NJIlaybg-EZbRzWWQDFvQK9EOJJeCSU4wQ=w1024-h576",
+        "https://play-lh.googleusercontent.com/Bheuc3WKeyJUmav7mSEZglL9qvUz-iFGbo2Nnh1PEToSCOadJcpJiHG6Q1Si-8LSFs6YWh8NrPruZ7NUI3AVzw=w1024-h576",
+        "https://play-lh.googleusercontent.com/dZzYMi2coI4AfXC351mL-SQWaq6D4b-2F1g-p5DDx0_0HDd3UNgmWDyfVbBUFtTudINoGlJhiJSn2TYC60luGw=w1024-h576",
+        "https://play-lh.googleusercontent.com/6RxgbB8M_zMG7R39jwTufEfhN9n-sP9rznFDhUkBLiTo3UedIaCQEmUiixuwec6stydtqa_a15ii3usOocEqrlM=w1024-h576",
+        "https://play-lh.googleusercontent.com/Il3_iRh7zD3pXjtG66DY92FXboUGG3ukyusIMi8DZ7lWPutmrEvQmSzYZfQeo1CR87Ib2LsfBjDNuxzZxTeW=w1024-h576",
+        "https://play-lh.googleusercontent.com/5_DRJu9VEdAp2JeqJRTXzRdVLCzSPs6i1UPyJdFzf9U-Go4z342r1ju4QIV58GX_X5qc-YqxTGdGhCul5OfKZko=w1024-h576"
+      ],
+      "rating": null,
+      "installs": "1+",
+      "updated": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.ezcompany.trap_maiden",
+      "privacyUrl": "https://ezsugiura.github.io/Apps/privacy_policy_trap_maiden.html",
+      "guideUrl": "https://ezsugiura.github.io/Apps/trap-maiden/ja/",
+      "guideLabel": "公式攻略サイト",
+      "keywords": ["罠師の娘", "ローグライク", "ターン制RPG", "戦略ゲーム", "罠", "ダンジョンRPG", "ドット絵", "オフラインゲーム"]
     }
   ]
 }

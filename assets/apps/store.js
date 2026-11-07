@@ -186,6 +186,7 @@
       "</div>" +
       '<div class="modal-actions">' +
       '<a class="btn-primary" href="' + app.playUrl + '" target="_blank" rel="noopener">' + escapeHtml(playButtonLabel(app)) + '</a>' +
+      (app.guideUrl ? '<a class="btn-secondary" href="' + app.guideUrl + '" target="_blank" rel="noopener">' + escapeHtml(app.guideLabel || "公式攻略サイト") + '</a>' : "") +
       (app.privacyUrl ? '<a class="btn-secondary" href="' + app.privacyUrl + '" target="_blank" rel="noopener">プライバシーポリシー</a>' : "") +
       "</div>" +
       "</div>" +
